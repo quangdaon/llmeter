@@ -20,7 +20,7 @@
 
 <style>
 	.landing {
-		min-height: calc(100vh - 80px);
+		flex: 1;
 		display: flex;
 		flex-direction: column;
 		align-items: center;

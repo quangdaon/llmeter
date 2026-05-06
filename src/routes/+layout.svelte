@@ -10,7 +10,9 @@
 	<meta name="description" content="A quiz that compares your answers to leading AI models. Are you more human or machine?" />
 </svelte:head>
 
-{@render children()}
+<main>
+	{@render children()}
+</main>
 
 <footer class="site-footer">
 	<p>
@@ -61,6 +63,8 @@
 
 	:global(body) {
 		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
 		background:
 			radial-gradient(ellipse 55% 45% at 85% 5%, rgba(251, 146, 60, 0.18) 0%, transparent 60%),
 			radial-gradient(ellipse 50% 40% at 15% 95%, rgba(167, 139, 250, 0.14) 0%, transparent 60%),
@@ -84,6 +88,12 @@
 		outline: 2px solid var(--accent);
 		outline-offset: 3px;
 		border-radius: 4px;
+	}
+
+	main {
+		flex: 1;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.site-footer {
