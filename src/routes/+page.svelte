@@ -39,7 +39,7 @@
 	}
 
 	.gradient-text {
-		background: linear-gradient(135deg, var(--accent) 0%, #a78bfa 100%);
+		background: linear-gradient(135deg, #6366f1 0%, #ec4899 100%);
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
@@ -67,6 +67,6 @@
 	.cta-btn:hover {
 		background: var(--accent-bright);
 		transform: translateY(-2px);
-		box-shadow: 0 6px 24px rgba(99, 179, 237, 0.3);
+		box-shadow: 0 6px 24px rgba(249, 115, 22, 0.3);
 	}
 </style>

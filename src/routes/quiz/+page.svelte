@@ -348,8 +348,8 @@
 
 	.next-btn:hover:not(:disabled) {
 		background: var(--accent-bright);
-		transform: translateY(-1px);
-		box-shadow: 0 4px 16px rgba(99, 179, 237, 0.35);
+		transform: translateY(-2px);
+		box-shadow: 0 4px 16px rgba(249, 115, 22, 0.3);
 	}
 
 	.next-btn:disabled {
@@ -434,8 +434,8 @@
 	.modal-backdrop {
 		position: fixed;
 		inset: 0;
-		background: rgba(0, 0, 0, 0.75);
-		backdrop-filter: blur(4px);
+		background: rgba(30, 18, 8, 0.5);
+		backdrop-filter: blur(6px);
 		display: flex;
 		align-items: center;
 		justify-content: center;
