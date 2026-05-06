@@ -156,45 +156,44 @@
 		<div class="modal-backdrop" onclick={closeDisputeModal} role="presentation">
 			<div class="modal" onclick={(e) => e.stopPropagation()} role="dialog" aria-modal="true" tabindex="-1">
 				{#if disputeModalState === 'input'}
-					<h2 class="modal-title">Lodging a Formal Objection?</h2>
+					<h2 class="modal-title">None of these feel right?</h2>
 					<p class="modal-desc">
-						Go ahead. Tell us exactly what's wrong with these perfectly reasonable options.
+						Tell us what you'd have chosen instead. We read every response.
 					</p>
 					<textarea
 						class="dispute-textarea"
 						bind:value={disputeText}
-						placeholder="My grievances are as follows..."
+						placeholder="I would have answered..."
 						rows="4"
 					></textarea>
 					<div class="modal-actions">
-						<button class="modal-cancel" onclick={closeDisputeModal}>Actually, never mind</button>
+						<button class="modal-cancel" onclick={closeDisputeModal}>Cancel</button>
 						<button class="modal-submit" onclick={submitDispute} disabled={!disputeText.trim()}>
-							Submit Objection
+							Submit
 						</button>
 					</div>
 				{:else}
 					{#if !isRepeatDispute}
-						<h2 class="modal-title">📋 Noted. (Not Really.)</h2>
+						<h2 class="modal-title">We read every response.</h2>
 						<p class="modal-desc response-text">
-							Your objection went nowhere. There's no feedback system here — this text field is purely decorative.
+							That was a lie. There's no feedback system here — your submission evaporated the moment you hit the button. We'll never know what you wrote, and neither will anyone else.
 						</p>
 						<p class="modal-desc response-text">
-							That said: the AIs were given the exact same options and told they <em>must</em> pick one. No appeals, no write-ins. The fact that you pushed back when they couldn't? Very human of you.
+							For what it's worth: the AI models couldn't do this. They were given the same options and told to pick one — no appeals, no write-ins. You at least had the option to push back.
 						</p>
 						<p class="modal-highlight">+5% humanity bonus applied. 🧑</p>
 					{:else}
-						<h2 class="modal-title">⚠️ No Further Bonuses Apply</h2>
+						<h2 class="modal-title">Still nothing. 🕳️</h2>
 						<p class="modal-desc response-text">
-							You've already registered your dissent. The algorithm has taken note once, and once is
-							enough. No further humanity bonuses apply.
+							The void has received your continued dissatisfaction. The void remains unmoved.
 						</p>
 						<p class="modal-desc response-text">
-							Interestingly, trying again is itself a very human thing to do.
+							No additional bonuses apply. Once is all it takes to be human.
 						</p>
 					{/if}
 
 					<div class="modal-actions">
-						<button class="modal-submit" onclick={closeDisputeModal}>Fine.</button>
+						<button class="modal-submit" onclick={closeDisputeModal}>...Fine.</button>
 					</div>
 				{/if}
 			</div>
