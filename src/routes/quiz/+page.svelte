@@ -50,7 +50,7 @@
 	async function submitQuiz() {
 		phase = 'submitting';
 		try {
-			const response = await fetch('/api/evaluate', {
+			const response = await fetch(resolve('/api/evaluate'), {
 				method: 'POST',
 				headers: { 'Content-Type': 'application/json' },
 				body: JSON.stringify({ answers, disputeUsed }),
