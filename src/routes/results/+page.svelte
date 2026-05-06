@@ -119,7 +119,7 @@
 							{#if model}
 								<div class="match-card" style="--model-color: {model.color}">
 									<img
-										src={model.logo}
+										src={resolve(model.logo)}
 										alt={model.name}
 										class="match-logo"
 										width="48"
@@ -185,7 +185,7 @@
 															title={model.name}
 														>
 															<img
-																src={model.logo}
+																src={resolve(model.logo)}
 																alt={model.name}
 																width="20"
 																height="20"
@@ -208,7 +208,7 @@
 											{#if model}
 												<div class="reasoning-panel" style="--bcolor: {model.color}">
 													<div class="reasoning-header">
-														<img src={model.logo} alt={model.name} width="24" height="24" />
+														<img src={resolve(model.logo)} alt={model.name} width="24" height="24" />
 														<strong>{model.name}</strong>
 														<button
 															class="close-reasoning"
