@@ -22,7 +22,7 @@
 		<span class="sep">·</span>
 		<a href="/privacy" class="repo-link">Privacy</a>
 		<span class="sep">·</span>
-		<a href="#repo" class="repo-link">View Source</a>
+		<a href="https://github.com/quangdaon/llmeter" class="repo-link">View Source</a>
 	</p>
 </footer>
 
