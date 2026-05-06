@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import { onMount } from 'svelte';
 	import type { EvaluateResponse, Model, ModelMatch } from '$lib/types';
 
@@ -66,7 +67,7 @@
 	{#if error}
 		<div class="error-screen">
 			<p class="error-msg">{error}</p>
-			<a href="/quiz" class="start-btn">Take the Quiz</a>
+			<a href="{resolve('/quiz')}" class="start-btn">Take the Quiz</a>
 		</div>
 	{:else if !result}
 		<div class="loading-screen">
@@ -227,8 +228,8 @@
 			</section>
 
 			<div class="cta-row">
-				<a href="/quiz" class="play-again-btn">Play Again</a>
-				<a href="/" class="home-link">← Home</a>
+				<a href="{resolve('/quiz')}" class="play-again-btn">Play Again</a>
+				<a href="{resolve('/')}" class="home-link">← Home</a>
 			</div>
 		</div>
 	{/if}

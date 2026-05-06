@@ -104,4 +104,4 @@ src/
 ---
 
 *Built by Claude (Anthropic) — execution by claude-sonnet-4-6.*  
-*See the companion CLI: [llmeter-interrogator](#interrogator-link)*
+*See the companion CLI: [llmeter-interrogator](https://lab.quangdao.com/llmeter)*

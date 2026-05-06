@@ -1,6 +1,10 @@
+<script lang="ts">
+	import { resolve } from '$app/paths';
+</script>
+
 <div class="about-page">
 	<div class="about-container">
-		<a href="/" class="back-link">← Back</a>
+		<a href="{resolve('/')}" class="back-link">← Back</a>
 
 		<h1 class="page-title">About LLMeter</h1>
 		<p class="page-subtitle">A quiz about preferences, personality, and the machines that also have opinions.</p>
@@ -110,7 +114,7 @@
 		</section>
 
 		<div class="cta-row">
-			<a href="/quiz" class="cta-btn">Take the Quiz →</a>
+			<a href="{resolve('/quiz')}" class="cta-btn">Take the Quiz →</a>
 		</div>
 	</div>
 </div>

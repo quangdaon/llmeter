@@ -1,6 +1,10 @@
+<script lang="ts">
+	import { resolve } from '$app/paths';
+</script>
+
 <div class="privacy-page">
 	<div class="privacy-container">
-		<a href="/" class="back-link">← Back</a>
+		<a href="{resolve('/')}" class="back-link">← Back</a>
 
 		<h1 class="page-title">Privacy Policy</h1>
 		<p class="last-updated">Last updated: May 2026</p>

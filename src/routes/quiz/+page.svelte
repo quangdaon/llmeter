@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import type { PageData } from './$types';
 	import type { QuizAnswer } from '$lib/types';
 
@@ -57,7 +58,7 @@
 			const result = await response.json();
 			sessionStorage.setItem('llmeter_result', JSON.stringify(result));
 			sessionStorage.setItem('llmeter_models', JSON.stringify(data.models));
-			window.location.href = '/results';
+			window.location.href = resolve('/results');
 		} catch {
 			phase = 'quiz';
 			isAnimating = false;
@@ -99,12 +100,12 @@
 			<p class="empty-icon">🤖</p>
 			<h2>No questions yet</h2>
 			<p>The interrogator hasn't run yet. Check back soon!</p>
-			<a href="/" class="back-home">← Back to Home</a>
+			<a href="{resolve('/')}" class="back-home">← Back to Home</a>
 		</div>
 	{:else if phase === 'quiz'}
 		<div class="quiz-container">
 			<header class="quiz-header">
-				<a href="/" class="back-link">← Back</a>
+				<a href="{resolve('/')}" class="back-link">← Back</a>
 				<div class="progress-wrapper">
 					<div class="progress-track">
 						<div class="progress-fill" style="width: {progress}%"></div>

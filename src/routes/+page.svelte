@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	const taglines = [
 		'Would you pick the same option as ChatGPT?',
 		'Turns out AIs have opinions. Do you share them?',
@@ -13,10 +14,10 @@
 		How Much of an <span class="gradient-text">AI</span> Are You?
 	</h1>
 	<p class="subhead">{tagline}</p>
-	<a href="/quiz" class="cta-btn">
+	<a href="{resolve('/quiz')}" class="cta-btn">
 		Start the Quiz →
 	</a>
-	<a href="/about" class="about-link">How does this work?</a>
+	<a href="{resolve('/about')}" class="about-link">How does this work?</a>
 </div>
 
 <style>
