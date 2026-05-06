@@ -16,6 +16,7 @@
 	<a href="/quiz" class="cta-btn">
 		Start the Quiz →
 	</a>
+	<a href="/about" class="about-link">How does this work?</a>
 </div>
 
 <style>
@@ -68,5 +69,16 @@
 		background: var(--accent-bright);
 		transform: translateY(-2px);
 		box-shadow: 0 6px 24px rgba(249, 115, 22, 0.3);
+	}
+
+	.about-link {
+		font-size: 0.85rem;
+		color: var(--muted);
+		text-decoration: none;
+		transition: color 0.2s;
+	}
+
+	.about-link:hover {
+		color: var(--text-dim);
 	}
 </style>

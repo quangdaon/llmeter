@@ -18,6 +18,10 @@
 	<p>
 		A <a href="https://www.quangdao.com" target="_blank" rel="noopener noreferrer">Quangdao Nguyen</a> Catastrophe. All Rights Reserved.
 		<span class="sep">·</span>
+		<a href="/about" class="repo-link">About</a>
+		<span class="sep">·</span>
+		<a href="/privacy" class="repo-link">Privacy</a>
+		<span class="sep">·</span>
 		<a href="#repo" class="repo-link">View Source</a>
 	</p>
 </footer>
