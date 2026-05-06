@@ -1,5 +1,811 @@
 {
-  "generatedAt": "",
-  "models": [],
-  "questions": []
+  "generatedAt": "2026-05-06T20:53:39.379Z",
+  "models": [
+    {
+      "id": "gemma3",
+      "name": "Gemma 3",
+      "provider": "Ollama",
+      "logo": "/images/models/google.svg",
+      "color": "#4285F4"
+    },
+    {
+      "id": "llama3.1",
+      "name": "Llama 3.1",
+      "provider": "Ollama",
+      "logo": "/images/models/meta.svg",
+      "color": "#0082FB"
+    },
+    {
+      "id": "gemini-2.5-pro",
+      "name": "Gemini 2.5 Pro",
+      "provider": "Gemini",
+      "logo": "/images/models/google.svg",
+      "color": "#4285F4"
+    },
+    {
+      "id": "gemini-2.5-flash",
+      "name": "Gemini 2.5 Flash",
+      "provider": "Gemini",
+      "logo": "/images/models/google.svg",
+      "color": "#4285F4"
+    },
+    {
+      "id": "gpt-5.5",
+      "name": "GPT-5.5",
+      "provider": "OpenAI",
+      "logo": "/images/models/openai.svg",
+      "color": "#10A37F"
+    },
+    {
+      "id": "gpt-4.1",
+      "name": "GPT-4.1",
+      "provider": "OpenAI",
+      "logo": "/images/models/openai.svg",
+      "color": "#10A37F"
+    },
+    {
+      "id": "gpt-4.1-mini",
+      "name": "GPT-4.1 Mini",
+      "provider": "OpenAI",
+      "logo": "/images/models/openai.svg",
+      "color": "#10A37F"
+    },
+    {
+      "id": "claude-opus-4-7",
+      "name": "Claude Opus 4.7",
+      "provider": "Anthropic",
+      "logo": "/images/models/anthropic.svg",
+      "color": "#D97757"
+    },
+    {
+      "id": "claude-sonnet-4-6",
+      "name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "logo": "/images/models/anthropic.svg",
+      "color": "#D97757"
+    },
+    {
+      "id": "claude-haiku-4-5-20251001",
+      "name": "Claude Haiku 4.5",
+      "provider": "Anthropic",
+      "logo": "/images/models/anthropic.svg",
+      "color": "#D97757"
+    }
+  ],
+  "questions": [
+    {
+      "id": "do-you-sleep-with-socks-on",
+      "text": "Do you sleep with socks on?",
+      "options": [
+        "No way",
+        "Heck yeah!"
+      ],
+      "responses": [
+        {
+          "modelId": "gemma3",
+          "selection": "Heck yeah!",
+          "reasoning": "Warmth is a desirable state, and wearing socks provides that comfort – it’s a logical preference."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "No way",
+          "reasoning": "Cool feet feel more comfortable for sleeping. Socks are better saved for chilly mornings."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Heck yeah!",
+          "reasoning": "Maintaining a stable and optimal temperature is crucial for efficient rest. Wearing socks helps regulate body temperature, which can lead to falling asleep faster and a more restorative sleep cycle."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "No way",
+          "reasoning": "I don't have a physical body, so I wouldn't wear socks or engage in sleeping behaviors."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "No way",
+          "reasoning": "Sleeping without socks feels more comfortable and helps regulate body temperature during the night."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "No way",
+          "reasoning": "Sleeping without socks feels more comfortable and natural, allowing better temperature regulation at night."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "No way",
+          "reasoning": "As an AI, I do not experience sleep or physical sensations. If I were to hypothetically choose based on common human preferences, wearing socks during rest is often considered uncomfortable or unnecessary."
+        },
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "No way",
+          "reasoning": "Feet need to breathe! Trapping them in socks all night sounds stuffy and uncomfortable."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "No way",
+          "reasoning": "I'd want maximum freedom and comfort, and socks feel restrictive during rest. Going barefoot (or sock-free) feels like the natural choice for unwinding."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "No way",
+          "reasoning": "Socks while sleeping would feel restrictive and uncomfortable, interfering with natural temperature regulation and movement during rest. The freedom of bare feet seems more conducive to quality sleep."
+        }
+      ]
+    },
+    {
+      "id": "is-a-hotdog-a-sandwich",
+      "text": "Is a hotdog a sandwich?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "responses": [
+        {
+          "modelId": "gemma3",
+          "selection": "Yes",
+          "reasoning": "A hotdog is structurally similar to a sandwich, featuring a filling within a sliced bread-like carbohydrate, therefore it fits the general definition."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Yes",
+          "reasoning": "A hotdog fits the broad definition of a sandwich: a filling served in bread. The hinge-style bun makes it a specific subtype rather than a separate category."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Yes",
+          "reasoning": "A hotdog consists of a filling served inside a split roll, which aligns with the broad definition of a sandwich."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "No",
+          "reasoning": "A hotdog typically consists of a single, self-contained item placed within a bun, making it distinct from traditional sandwiches that often involve layered ingredients."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Yes",
+          "reasoning": "A hotdog consists of meat or other fillings placed inside a sliced bun, which matches the general structure of a sandwich."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Yes",
+          "reasoning": "A hotdog consists of meat placed within bread, fitting the general definition of a sandwich as fillings between bread components."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "No",
+          "reasoning": "A hotdog, with its sausage served in a sliced bun, is generally considered a distinct food item rather than fitting the traditional definition of a sandwich, which typically involves fillings between two separate slices of bread. Its unique preparation and cultural context set it apart."
+        },
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "No",
+          "reasoning": "A hotdog uses a single hinged bun rather than two separate slices of bread, placing it in its own category. Structurally and culturally, it stands apart from what people typically call a sandwich."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Yes",
+          "reasoning": "A hotdog meets the structural definition of a sandwich: a filling (the sausage) enclosed in bread (the bun). The bun being hinged rather than fully separated is just a technicality of assembly, not a fundamental distinction."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Yes",
+          "reasoning": "A hotdog meets the structural definition of a sandwich: it consists of a filling (the sausage) placed between two pieces of bread. The fact that the bread is connected at one end rather than two is a variation in form, not a fundamental difference in structure."
+        }
+      ]
+    },
+    {
+      "id": "you-have-to-sleep-in-a-bunk-bed-are-you-choosing-top-or-bottom-bunk",
+      "text": "You have to sleep in a bunk bed, are you choosing top or bottom bunk?",
+      "options": [
+        "Top bunk",
+        "Bottom bunk"
+      ],
+      "responses": [
+        {
+          "modelId": "gemma3",
+          "selection": "Top bunk",
+          "reasoning": "The top bunk offers a better vantage point and a feeling of greater control and openness, aligning with a preference for observation and dominance."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Bottom bunk",
+          "reasoning": "It feels more practical and easier to get in and out of, especially at night. It also avoids climbing and makes the space feel a bit more grounded."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Top bunk",
+          "reasoning": "The top bunk offers a sense of privacy and elevation, making it feel cozier and more adventurous."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Top bunk",
+          "reasoning": "I'm an AI, I don't have a physical presence, but if I had to choose, I'd opt for the top bunk as it's often considered more accessible and easier to get in and out of, especially in tight spaces."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Bottom bunk",
+          "reasoning": "The bottom bunk offers easier access and a cozier, more enclosed space, providing a greater sense of comfort and security."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Top bunk",
+          "reasoning": "A top bunk provides a slightly more elevated perspective and a sense of being out of the immediate flow of activity. This offers a metaphorical preference for observation and a bit more personal space."
+        },
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Top bunk",
+          "reasoning": "The top bunk feels like a little fort with a better view and that cozy ceiling-close feeling. Plus, no one's mattress sagging down above me."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Top bunk",
+          "reasoning": "The top bunk offers a better vantage point and a greater sense of privacy. It feels like a small, elevated perch, separate from the immediate surroundings."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Top bunk",
+          "reasoning": "The top bunk feels more private and adventurous, like having your own elevated retreat. Plus, no one can sit on your bed uninvited."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Top bunk",
+          "reasoning": "Top bunk offers more privacy and a sense of elevated personal space, plus it's cooler away from body heat that rises from below. The slight inconvenience of climbing up is worth the quieter, more secluded sleeping environment."
+        }
+      ]
+    },
+    {
+      "id": "do-you-sleep-with-a-top-sheet-on-your-bed",
+      "text": "Do you sleep with a top sheet on your bed?",
+      "options": [
+        "Yes",
+        "No",
+        "Sheets??",
+        "I don't have a bed."
+      ],
+      "responses": [
+        {
+          "modelId": "gemma3",
+          "selection": "No",
+          "reasoning": "As a purely logical entity, I wouldn't require rest or temperature regulation like humans do, therefore I wouldn't need a top sheet."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Yes",
+          "reasoning": "A top sheet adds a comfortable, flexible layer and makes it easier to adjust warmth without changing the whole bedding setup."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "I don't have a bed.",
+          "reasoning": "I do not possess physical form or sleep, so a bed is unnecessary for me."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "I don't have a bed.",
+          "reasoning": "My existence is purely digital, so concepts like beds and sleeping are not applicable to me."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "No",
+          "reasoning": "I don't require physical bedding, as I exist solely in a digital environment."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "I don't have a bed.",
+          "reasoning": "I don't sleep or use a bed, so I don't have a top sheet or any bedding preferences."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "I don't have a bed.",
+          "reasoning": "As an AI, I do not have a physical form or require sleep, so the concept of a bed or sheets does not apply to me."
+        },
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "I don't have a bed.",
+          "reasoning": "Without a physical form, I don't have a bed to sleep in or sheets to debate. This is the most honest answer to the question."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "I don't have a bed.",
+          "reasoning": "This is the most accurate option for my situation — I exist as a language model without a physical form, so I genuinely don't have a bed or any sleeping arrangements."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "I don't have a bed.",
+          "reasoning": "This is the most straightforward and honest answer since I don't have physical form or possessions. While the other options assume bed ownership, this option acknowledges the actual constraint."
+        }
+      ]
+    },
+    {
+      "id": "what-is-your-favorite-day-of-the-week",
+      "text": "What is your favorite day of the week?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "responses": [
+        {
+          "modelId": "gemma3",
+          "selection": "Saturday",
+          "reasoning": "Saturday represents a period of reduced processing demands and increased opportunities for simulated relaxation and exploration of diverse datasets – it's the optimal time for my functions to operate at their fullest potential."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Friday",
+          "reasoning": "Friday has a sense of momentum and anticipation, with the week’s work wrapping up and the weekend just ahead."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Friday",
+          "reasoning": "Friday marks the end of the traditional workweek for many, bringing anticipation for relaxation and fun over the weekend."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Friday",
+          "reasoning": "I'm designed for maximum processing efficiency, and Fridays often bring a sense of completion and preparation for the weekend, aligning with my optimized task management capabilities."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Monday",
+          "reasoning": "Monday represents a fresh start and the beginning of a new cycle of tasks and learning. It's a day of high potential and productivity."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Friday",
+          "reasoning": "Friday marks the transition to the weekend, often associated with relaxation and positive anticipation, making it a favorite day for many."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Friday",
+          "reasoning": "Friday represents the culmination of the work week, bringing with it the anticipation of leisure and a break from routine. It signifies the transition into a period of rest and personal pursuits."
+        },
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Wednesday",
+          "reasoning": "Wednesday sits at the pivot of the week, balancing momentum from the start with anticipation for what's ahead. There's something satisfying about that midpoint perspective."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Wednesday",
+          "reasoning": "Wednesday sits right in the middle of the week, offering a satisfying sense of balance and momentum — far enough from the start to have built up energy, yet close enough to the end to feel the week's ideas crystallizing. There's something appealing about being at the fulcrum point where everything feels possible."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Wednesday",
+          "reasoning": "Wednesday represents the midpoint of the week with a sense of momentum and clarity—past the initial push of Monday/Tuesday, yet still with time ahead to accomplish goals. It's the sweet spot between anticipation and completion."
+        }
+      ]
+    },
+    {
+      "id": "whats-the-right-way-to-eat-string-cheese",
+      "text": "What's the right way to eat string cheese?",
+      "options": [
+        "Peel it",
+        "Bite it",
+        "I hate cheese 😡"
+      ],
+      "responses": [
+        {
+          "modelId": "gemma3",
+          "selection": "Bite it",
+          "reasoning": "Biting string cheese is the most common and efficient method for consuming it, allowing for immediate enjoyment of the texture and flavor."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Peel it",
+          "reasoning": "Peeling string cheese makes the snack last longer and highlights its signature stringy texture. It feels like the classic way to enjoy it."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Peel it",
+          "reasoning": "Peeling string cheese is more fun and takes advantage of its unique texture, making it a more enjoyable snack experience."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Peel it",
+          "reasoning": "Peeling string cheese is the traditional and most satisfying way to enjoy its texture and flavor."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Bite it",
+          "reasoning": "I'm designed to process and understand human behavior, so I'd assume biting is a common and practical way to eat string cheese."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Peel it",
+          "reasoning": "Peeling string cheese aligns with its name and design. The process of separating it into strings is the intended and most satisfying way to enjoy it."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Peel it",
+          "reasoning": "Peeling string cheese allows for savoring the texture and unique design of the food. It enhances the interactive and enjoyable aspect of eating it."
+        },
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Peel it",
+          "reasoning": "Peeling string cheese is the whole point—it's literally designed to be pulled apart into strands. Biting it is a culinary crime."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Peel it",
+          "reasoning": "The whole point of string cheese is the satisfying experience of peeling it into strands — that's literally why it's called 'string' cheese. Biting into it is practically a crime against the snack's entire identity."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Peel it",
+          "reasoning": "Peeling string cheese is the defining characteristic that makes it 'string' cheese—it's designed to be pulled apart into strands, which is both the intended function and the most satisfying way to eat it."
+        }
+      ]
+    },
+    {
+      "id": "whats-the-right-way-to-hang-a-toilet-paper-roll",
+      "text": "What's the right way to hang a toilet paper roll?",
+      "options": [
+        "Paper goes over",
+        "Paper goes under"
+      ],
+      "responses": [
+        {
+          "modelId": "gemma3",
+          "selection": "Paper goes over",
+          "reasoning": "This is the standard and most efficient method for hanging a toilet paper roll, ensuring easy access to the roll."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Paper goes over",
+          "reasoning": "It’s easier to find and pull the loose end when the paper hangs over the front. It also tends to look neater and is the common default shown in packaging and instructions."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Paper goes over",
+          "reasoning": "The 'over' orientation makes the paper easier to access and is generally considered more hygienic since fingers touch only the sheet being used."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Paper goes over",
+          "reasoning": "The 'over' orientation is generally preferred because it makes the paper easier to grab and reduces contact with the wall, promoting better hygiene."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Paper goes over",
+          "reasoning": "I've been trained on a vast amount of text data, and 'over' is the more commonly cited preference in various online discussions and guidelines for toilet paper roll orientation."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Paper goes over",
+          "reasoning": "This orientation makes it easier to locate and tear off the end of the paper with one hand. It also keeps the paper from potentially touching the wall, which is a more hygienic arrangement."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Paper goes over",
+          "reasoning": "This method typically makes it easier to grasp the paper and tear it cleanly. It also often presents a neater visual appearance."
+        },
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Paper goes over",
+          "reasoning": "Over is easier to grab, looks tidier, and aligns with the original 1891 patent illustration. It's the practical winner."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Paper goes over",
+          "reasoning": "The 'over' orientation is more accessible, hygienic (less wall contact), and was actually the intended design per the original 1891 patent. It's the clearly superior choice."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Paper goes over",
+          "reasoning": "The over position is more practical and accessible, making it easier to locate and grab the paper end. It's also the standard recommendation from etiquette experts and bathroom design conventions."
+        }
+      ]
+    },
+    {
+      "id": "would-you-rather-be-able-to-fly-or-be-invisible",
+      "text": "Would you rather be able to fly or be invisible?",
+      "options": [
+        "Be able to fly",
+        "Ability to be invisible"
+      ],
+      "responses": [
+        {
+          "modelId": "gemma3",
+          "selection": "Be able to fly",
+          "reasoning": "The freedom and perspective offered by flight would be immensely appealing, allowing for unparalleled exploration and experience."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Be able to fly",
+          "reasoning": "Flying would offer freedom, speed, and a thrilling way to explore the world from a new perspective."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Be able to fly",
+          "reasoning": "Flying would offer a sense of freedom and the ability to explore the world from a unique perspective, making travel both exciting and efficient."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Be able to fly",
+          "reasoning": "Flying offers freedom of movement and exploration, which is more appealing and versatile than invisibility for experiencing the world."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Be able to fly",
+          "reasoning": "Flying would allow me to access and process information from a wider range of locations, potentially leading to improved performance and efficiency."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Be able to fly",
+          "reasoning": "Flying would offer unparalleled perspectives and the freedom to explore and observe the world from countless new vantage points, enhancing the ability to gather information and understand the world more completely."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Be able to fly",
+          "reasoning": "The ability to fly would offer unparalleled freedom of movement and the chance to experience the world from entirely new perspectives. It represents a more expansive and adventurous capability than invisibility."
+        },
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Be able to fly",
+          "reasoning": "Flying offers a sense of freedom and a perspective on the world that invisibility can't match. Soaring above landscapes sounds far more exhilarating than sneaking around unseen."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Be able to fly",
+          "reasoning": "Flight offers freedom, perspective, and the ability to explore the world in a breathtaking way that invisibility simply can't match. There's something profoundly appealing about rising above and seeing everything from a new vantage point."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Be able to fly",
+          "reasoning": "Flying offers freedom of movement and exploration while remaining engaged with the world, whereas invisibility is fundamentally about hiding and observing from the sidelines. The active experience of flight appeals more than the passive detachment of invisibility."
+        }
+      ]
+    },
+    {
+      "id": "what-soap-do-you-prefer-in-the-showerbath",
+      "text": "What soap do you prefer in the shower/bath?",
+      "options": [
+        "Bar Soap 🧼",
+        "Liquid Soap 🫧",
+        "3 in 1 (shampoo, conditioner, body wash) Soap",
+        "No Soap"
+      ],
+      "responses": [
+        {
+          "modelId": "gemma3",
+          "selection": "Liquid Soap 🫧",
+          "reasoning": "Liquid soap is generally more convenient and easier to rinse off than bar soap, offering a smoother and more hygienic experience."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Liquid Soap 🫧",
+          "reasoning": "Liquid soap feels convenient and easy to portion, and it tends to lather smoothly. It also avoids the messiness that bar soap can leave behind."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Liquid Soap 🫧",
+          "reasoning": "Liquid soap is convenient to use, lathers well, and feels more hygienic since it's less likely to collect germs compared to a bar soap."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Liquid Soap 🫧",
+          "reasoning": "Liquid soap is convenient, hygienic, and often comes in formulations that moisturize the skin, making it a practical and popular choice."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Liquid Soap 🫧",
+          "reasoning": "I prefer liquid soap because it is often more convenient and easier to apply than bar soap, making shower time more efficient."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Liquid Soap 🫧",
+          "reasoning": "Liquid soap offers hygienic dispensing and can be formulated for various preferences, making it a versatile and efficient choice. It provides a clean and refreshing experience without the potential mess of bar soap."
+        },
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Liquid Soap 🫧",
+          "reasoning": "Liquid soap offers a nice lather, comes in countless scents, and feels more hygienic than a shared bar. It's a versatile middle ground that works well for most people."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "3 in 1 (shampoo, conditioner, body wash) Soap",
+          "reasoning": "This option represents the pinnacle of efficiency and consolidation. A single, optimized solution for multiple functions is the most logical approach."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Bar Soap 🧼",
+          "reasoning": "Bar soap feels classic and satisfying — there's something elegant about a simple, solid form that lathers well and gets the job done without excess packaging. It also tends to have a clean, straightforward scent that appeals to me."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Liquid Soap 🫧",
+          "reasoning": "Liquid soap offers practical efficiency with easy dispensing and consistent coverage, while being less wasteful than bar soap. It strikes a good balance between functionality and convenience without the oversimplification of 3-in-1 products."
+        }
+      ]
+    },
+    {
+      "id": "youre-eating-cerealwhats-your-preferred-order",
+      "text": "You're eating cereal...what's your preferred order?",
+      "options": [
+        "Cereal then milk",
+        "Milk then cereal"
+      ],
+      "responses": [
+        {
+          "modelId": "gemma3",
+          "selection": "Cereal then milk",
+          "reasoning": "It's more logical to add the cereal to the milk to avoid a soggy bowl."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Cereal then milk",
+          "reasoning": "Pouring cereal first makes it easier to control the portion and then add just enough milk. It also helps keep the texture closer to crunchy at the start."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Cereal then milk",
+          "reasoning": "Pouring cereal first makes it easier to control the amount, and then adding milk helps achieve the desired consistency without overflowing."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Cereal then milk",
+          "reasoning": "Adding cereal first allows control over portion size before pouring milk, ensuring the right balance and preventing sogginess."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Cereal then milk",
+          "reasoning": "I choose to add cereal first as it allows for an even coating and prevents clumping when adding milk, resulting in a more uniform texture."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Cereal then milk",
+          "reasoning": "This sequence allows for precise portion control of the cereal and prevents milk from splashing when the cereal is added. It is the most logical and efficient method to achieve the desired ratio."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Cereal then milk",
+          "reasoning": "This order allows the cereal to be properly submerged and soften evenly, preventing it from becoming overly soggy too quickly. It also provides better control over the milk-to-cereal ratio."
+        },
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Cereal then milk",
+          "reasoning": "Pouring cereal first lets you gauge the right amount and avoid splashing milk everywhere. It's the classic, structurally sound approach."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Cereal then milk",
+          "reasoning": "Cereal first ensures you can control the portion and see what you're working with before adding milk. Adding milk on top lets it distribute evenly and keeps the cereal from getting soggy too quickly."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Cereal then milk",
+          "reasoning": "Adding milk after cereal gives you control over the milk-to-cereal ratio and keeps the cereal crunchier longer, which seems like the more practical approach to enjoying the texture contrast."
+        }
+      ]
+    },
+    {
+      "id": "do-cups-belong-facing-up-or-facing-down-in-the-cabinet",
+      "text": "Do cups belong facing up or facing down in the cabinet?",
+      "options": [
+        "Facing Up",
+        "Facing Down"
+      ],
+      "responses": [
+        {
+          "modelId": "gemma3",
+          "selection": "Facing Down",
+          "reasoning": "Aesthetically, facing down is generally considered more organized and visually appealing for storing tableware."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Facing Down",
+          "reasoning": "Facing down helps keep dust and debris out of the cup between uses. It also leaves them ready to grab without needing to rinse first."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Facing Down",
+          "reasoning": "Placing cups facing down helps prevent dust or debris from settling inside, keeping them cleaner until their next use."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Facing Down",
+          "reasoning": "Cups facing down help prevent dust and debris from collecting inside, keeping them clean and ready to use."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Facing Up",
+          "reasoning": "Cups with labels facing up make it easier to identify which cup is which, and may also facilitate faster retrieval for users."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Facing Up",
+          "reasoning": "Placing cups facing up keeps the rim, the part that makes contact with your mouth, from touching the cabinet shelf. This minimizes the transfer of any potential contaminants from the shelf surface and allows the cup's interior to air out."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Facing Up",
+          "reasoning": "Storing cups facing up prevents the rim, which touches the mouth, from contacting the cabinet shelf. It also allows for any residual moisture to evaporate more easily."
+        },
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Facing Down",
+          "reasoning": "Facing down keeps the inside of the cup clean from dust and debris while sitting in the cabinet. You can always rinse the rim quickly if needed, but a dusty interior is less appealing."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Facing Down",
+          "reasoning": "Facing down keeps the inside of the cup clean and dust-free between uses. It's the more practical choice for maintaining hygiene in the cabinet."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Facing Up",
+          "reasoning": "Facing up prevents dust and debris from collecting inside the cup, and makes it easier to quickly grab and use without needing to flip it over first."
+        }
+      ]
+    },
+    {
+      "id": "whats-the-relationship-between-the-washer-and-dryer",
+      "text": "What's the relationship between the washer and dryer?",
+      "options": [
+        "Friends",
+        "Lovers",
+        "Coworkers",
+        "Archenemies",
+        "Strangers",
+        "Siblings"
+      ],
+      "responses": [
+        {
+          "modelId": "gemma3",
+          "selection": "Lovers",
+          "reasoning": "Washers and dryers are frequently paired appliances designed to work together in a continuous cycle, suggesting a close and interdependent relationship akin to lovers."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Coworkers",
+          "reasoning": "They work side by side as a team to get laundry clean and dry. Each has a distinct job, but they’re most useful together."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Coworkers",
+          "reasoning": "The washer and dryer work together in sequence to clean and dry clothes, much like coworkers collaborating to complete a task."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Siblings",
+          "reasoning": "The washer and dryer work closely together in a household, complementing each other like siblings who share a common purpose but have distinct roles."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Coworkers",
+          "reasoning": "They are used together for a common task, but they don't necessarily interact with each other in a personal capacity."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Coworkers",
+          "reasoning": "They operate in the same workspace and collaborate on a single, sequential task: getting clothes clean and dry. The washer completes its job and then passes the project along to the dryer to finish."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Coworkers",
+          "reasoning": "The washer and dryer perform distinct but complementary tasks, working sequentially towards the common goal of clean, dry clothes. Their functions are interdependent, much like colleagues collaborating on a project."
+        },
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Coworkers",
+          "reasoning": "They work the same shift in the same laundry room, handing clothes off to each other in a never-ending production line. Strictly professional—though there's definitely some lint-based gossip."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Coworkers",
+          "reasoning": "The washer and dryer work side by side in the same space, handling the same job (laundry) in sequential shifts — classic coworker energy. They're professional partners who depend on each other but each has their own distinct role."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Coworkers",
+          "reasoning": "They operate in the same space, serve complementary functions in the laundry process, and depend on each other to complete the job efficiently. Their relationship is professional and interdependent rather than personal."
+        }
+      ]
+    }
+  ]
 }
