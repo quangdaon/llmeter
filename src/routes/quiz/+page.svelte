@@ -174,16 +174,12 @@
 					</div>
 				{:else}
 					{#if !isRepeatDispute}
-						<h2 class="modal-title">📋 Objection Noted</h2>
+						<h2 class="modal-title">📋 Noted. (Not Really.)</h2>
 						<p class="modal-desc response-text">
-							Your feedback has been received and will be carefully considered by our team of human
-							reviewers at our state-of-the-art facility.
+							Your objection went nowhere. There's no feedback system here — this text field is purely decorative.
 						</p>
 						<p class="modal-desc response-text">
-							(It hasn't actually gone anywhere. But here's the thing: the AIs were specifically
-							instructed that they <em>must</em> choose from the available options. They didn't get
-							to dispute them either. Your very human impulse to push back? That's noted in your
-							score.)
+							That said: the AIs were given the exact same options and told they <em>must</em> pick one. No appeals, no write-ins. The fact that you pushed back when they couldn't? Very human of you.
 						</p>
 						<p class="modal-highlight">+5% humanity bonus applied. 🧑</p>
 					{:else}
