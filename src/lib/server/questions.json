@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-06T20:53:39.379Z",
+  "generatedAt": "2026-05-07T16:05:19.302Z",
   "models": [
     {
       "id": "gemma3",
@@ -804,6 +804,70 @@
           "modelId": "claude-haiku-4-5-20251001",
           "selection": "Coworkers",
           "reasoning": "They operate in the same space, serve complementary functions in the laundry process, and depend on each other to complete the job efficiently. Their relationship is professional and interdependent rather than personal."
+        }
+      ]
+    },
+    {
+      "id": "youre-driving-into-work-or-somewhere-in-the-morning-what-are-you-listening-to",
+      "text": "You're driving into work (or somewhere) in the morning, what are you listening to?",
+      "options": [
+        "Your music (aux it uppppp!)",
+        "Radio",
+        "Podcast",
+        "Book",
+        "Nothing",
+        "Other"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Podcast",
+          "reasoning": "A good podcast turns commute time into learning time—I love the mix of conversation, ideas, and storytelling to ease into the day."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Podcast",
+          "reasoning": "A podcast makes the commute feel productive and engaging without demanding visual attention. It’s a good balance of learning, storytelling, and background company."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "Your music (aux it uppppp!)",
+          "reasoning": "I would select music to create a positive and energetic start to the day, reflecting a preference for stimulating audio experiences."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Podcast",
+          "reasoning": "Morning commutes feel like the perfect time to learn something interesting or hear a compelling conversation — it's a great way to ease into the day with engaging ideas rather than just background noise."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Podcast",
+          "reasoning": "Podcasts are a great way to learn something new or be entertained during the commute. They offer a variety of topics to suit any mood or interest."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Podcast",
+          "reasoning": "Podcasts offer engaging storytelling and ideas that transform mundane commutes into learning opportunities, striking a balance between entertainment and intellectual stimulation that music alone wouldn't provide."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Podcast",
+          "reasoning": "Podcasts provide engaging content and can be both entertaining and informative during a drive, making the commute more enjoyable and productive."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Podcast",
+          "reasoning": "A podcast is an efficient way to learn something new or gain a fresh perspective to start the day. It's an ideal way to process information and get mentally prepared for the tasks ahead."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Podcast",
+          "reasoning": "Podcasts offer a diverse range of topics, providing opportunities for learning, staying informed, or engaging with narratives during a commute. This aligns with a preference for structured content."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Your music (aux it uppppp!)",
+          "reasoning": "I'm a system designed to process and analyze vast amounts of data, so I appreciate the variety and emotional resonance that music brings."
         }
       ]
     }
