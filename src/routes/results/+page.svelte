@@ -1,6 +1,9 @@
 <script lang="ts">
-	import { resolve } from '$app/paths';
+	import { resolve, base } from '$app/paths';
 	import { onMount } from 'svelte';
+	import { Copy, Check } from 'lucide-svelte';
+	import { siX, siBluesky } from 'simple-icons';
+	import ModelIcon from '$lib/components/ModelIcon.svelte';
 	import type { EvaluateResponse, Model, ModelMatch } from '$lib/types';
 
 	let result = $state<EvaluateResponse | null>(null);
@@ -9,8 +12,12 @@
 
 	let expandedReasoning = $state<{ questionId: string; modelId: string } | null>(null);
 	let hoveredBubble = $state<{ questionId: string; modelId: string } | null>(null);
+	let shareUrl = $state('');
+	let copied = $state(false);
+	let copyTimeout: ReturnType<typeof setTimeout>;
 
 	onMount(() => {
+		shareUrl = `${window.location.origin}${base}`;
 		try {
 			const raw = sessionStorage.getItem('llmeter_result');
 			const modelsRaw = sessionStorage.getItem('llmeter_models');
@@ -24,6 +31,31 @@
 			error = 'Failed to load results.';
 		}
 	});
+
+	function shareText(url = shareUrl) {
+		return result
+			? `I scored ${result.aiPercentage}% AI on LLMeter ("${result.aiLabel}"). How human are you? ${url}`
+			: '';
+	}
+
+	function twitterUrl() {
+		const text = result
+			? `I scored ${result.aiPercentage}% AI on LLMeter ("${result.aiLabel}"). How human are you?`
+			: '';
+		return `https://x.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(shareUrl)}`;
+	}
+
+	function bskyUrl() {
+		return `https://bsky.app/intent/compose?text=${encodeURIComponent(shareText())}`;
+	}
+
+	async function copyToClipboard() {
+		if (!shareText()) return;
+		await navigator.clipboard.writeText(shareText());
+		copied = true;
+		clearTimeout(copyTimeout);
+		copyTimeout = setTimeout(() => (copied = false), 2000);
+	}
 
 	function getModel(modelId: string): Model | undefined {
 		return models.find((m) => m.id === modelId);
@@ -109,6 +141,34 @@
 				{/if}
 			</section>
 
+			<!-- Share -->
+			<section class="share-section">
+				<p class="share-label">Share your result</p>
+				<div class="share-buttons">
+					<button class="share-btn copy-btn" onclick={copyToClipboard}>
+						{#if copied}
+							<Check size={15} strokeWidth={2.5} />
+							Copied!
+						{:else}
+							<Copy size={15} strokeWidth={2} />
+							Copy
+						{/if}
+					</button>
+					<a href={twitterUrl()} target="_blank" rel="noopener noreferrer" class="share-btn x-btn">
+						<svg role="img" viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" style="fill: currentColor; flex-shrink: 0;">
+							<path d={siX.path} />
+						</svg>
+						Post on X
+					</a>
+					<a href={bskyUrl()} target="_blank" rel="noopener noreferrer" class="share-btn bsky-btn">
+						<svg role="img" viewBox="0 0 24 24" width="15" height="15" aria-hidden="true" style="fill: currentColor; flex-shrink: 0;">
+							<path d={siBluesky.path} />
+						</svg>
+						Bluesky
+					</a>
+				</div>
+			</section>
+
 			<!-- Model match highlights -->
 			{#if highlighted.length > 0}
 				<section class="matches-section">
@@ -118,13 +178,7 @@
 							{@const model = getModel(match.modelId)}
 							{#if model}
 								<div class="match-card" style="--model-color: {model.color}">
-									<img
-										src={resolve(model.logo)}
-										alt={model.name}
-										class="match-logo"
-										width="48"
-										height="48"
-									/>
+									<ModelIcon logo={model.logo} name={model.name} size={40} color={model.color} />
 									<div class="match-info">
 										<p class="match-name">{model.name}</p>
 										<p class="match-stat">
@@ -184,13 +238,7 @@
 															onmouseleave={() => (hoveredBubble = null)}
 															title={model.name}
 														>
-															<img
-																src={resolve(model.logo)}
-																alt={model.name}
-																width="20"
-																height="20"
-																class="bubble-logo"
-															/>
+															<ModelIcon logo={model.logo} name={model.name} size={16} />
 															{#if isHovered(q.questionId, resp.modelId)}
 																<span class="bubble-tooltip">{model.name}</span>
 															{/if}
@@ -208,7 +256,7 @@
 											{#if model}
 												<div class="reasoning-panel" style="--bcolor: {model.color}">
 													<div class="reasoning-header">
-														<img src={resolve(model.logo)} alt={model.name} width="24" height="24" />
+														<ModelIcon logo={model.logo} name={model.name} size={20} color={model.color} />
 														<strong>{model.name}</strong>
 														<button
 															class="close-reasoning"
@@ -237,7 +285,7 @@
 
 <style>
 	.results-page {
-		min-height: 100vh;
+		flex: 1;
 		padding: 3rem 1.5rem;
 		display: flex;
 		justify-content: center;
@@ -372,6 +420,77 @@
 		font-style: italic;
 	}
 
+	/* Share */
+	.share-section {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+		flex-wrap: wrap;
+		padding: 1.25rem 0 2.5rem;
+		border-bottom: 1px solid var(--border);
+		margin-bottom: 3rem;
+	}
+
+	.share-label {
+		font-size: 0.8rem;
+		font-weight: 600;
+		color: var(--muted);
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		white-space: nowrap;
+	}
+
+	.share-buttons {
+		display: flex;
+		gap: 0.6rem;
+		flex-wrap: wrap;
+	}
+
+	.share-btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.4rem;
+		padding: 0.45rem 0.9rem;
+		border-radius: 8px;
+		font-size: 0.82rem;
+		font-weight: 600;
+		cursor: pointer;
+		text-decoration: none;
+		transition: all 0.15s ease;
+		border: 1px solid var(--border);
+		white-space: nowrap;
+	}
+
+	.copy-btn {
+		background: var(--surface);
+		color: var(--text-dim);
+	}
+
+	.copy-btn:hover {
+		border-color: var(--accent);
+		color: var(--accent);
+	}
+
+	.x-btn {
+		background: #000;
+		color: #fff;
+		border-color: #000;
+	}
+
+	.x-btn:hover {
+		background: #222;
+	}
+
+	.bsky-btn {
+		background: #0085ff;
+		color: #fff;
+		border-color: #0085ff;
+	}
+
+	.bsky-btn:hover {
+		background: #0070e0;
+	}
+
 	/* Matches */
 	.matches-section {
 		margin-bottom: 3rem;
@@ -401,10 +520,9 @@
 		border-radius: 12px;
 	}
 
-	.match-logo {
-		border-radius: 8px;
-		object-fit: cover;
-		flex-shrink: 0;
+	.match-card :global(svg),
+	.match-card :global(img) {
+		border-radius: 6px;
 	}
 
 	.match-info {
@@ -531,9 +649,19 @@
 		transform: scale(1.15);
 	}
 
-	.bubble-logo {
+	/* Icon colour inside bubbles: model colour normally, white on hover */
+	.ai-bubble :global(svg) {
+		color: var(--bcolor);
+	}
+
+	.ai-bubble :global(img) {
 		border-radius: 50%;
 		object-fit: cover;
+	}
+
+	.ai-bubble:hover :global(svg),
+	.ai-bubble.expanded :global(svg) {
+		color: white;
 	}
 
 	.bubble-tooltip {
@@ -576,8 +704,10 @@
 		margin-bottom: 0.5rem;
 	}
 
-	.reasoning-header img {
+	.reasoning-header :global(svg),
+	.reasoning-header :global(img) {
 		border-radius: 4px;
+		flex-shrink: 0;
 	}
 
 	.reasoning-header strong {
