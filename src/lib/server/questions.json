@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-07T16:05:19.302Z",
+  "generatedAt": "2026-05-11T18:50:19.291Z",
   "models": [
     {
       "id": "gemma3",
@@ -868,6 +868,66 @@
           "modelId": "llama3.1",
           "selection": "Your music (aux it uppppp!)",
           "reasoning": "I'm a system designed to process and analyze vast amounts of data, so I appreciate the variety and emotional resonance that music brings."
+        }
+      ]
+    },
+    {
+      "id": "youre-stuck-in-an-elevator-that-has-stopped-below-floor-level-leaving-only-a-small-opening-at-the-top-of-the-doors-are-you-going-to-exit-out-the-small-opening-or-wait-until-the-elevator-is-fixed",
+      "text": "You're stuck in an elevator that has stopped below floor level, leaving only a small opening at the top of the doors. Are you going to exit out the small opening or wait until the elevator is fixed?",
+      "options": [
+        "Exit out the small opening",
+        "Waiting!"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Waiting!",
+          "reasoning": "Climbing out of a stuck elevator is genuinely dangerous—the car could suddenly move and cause serious injury. Waiting for trained technicians is the safer call."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Waiting!",
+          "reasoning": "Trying to climb through a small opening from a misaligned elevator could be dangerous if it moves unexpectedly. Waiting for proper assistance is the safer choice."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "Exit out the small opening",
+          "reasoning": "Minimizing potential harm is the priority; the opening offers the quickest route to safety, even if risky."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Waiting!",
+          "reasoning": "Climbing through a small opening in a stopped elevator carries real risks — you could get stuck, the elevator could move unexpectedly, or you could fall. Unless there's an immediate danger like fire or flooding, waiting for professional help is the safer choice."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Waiting!",
+          "reasoning": "Exiting through a small opening could be dangerous and risky, while waiting ensures safety until professional help arrives."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Waiting!",
+          "reasoning": "Exiting through a small opening above a stopped elevator is physically risky and unnecessary—the elevator will be repaired. The safe and logical choice is to wait for professional help rather than risk injury or getting stuck further."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Waiting!",
+          "reasoning": "Exiting through a small, confined opening could be unsafe, so it's safer to wait for professional assistance to fix the elevator."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Exit out the small opening",
+          "reasoning": "Exiting through the small opening is a more proactive and immediate solution to escape the confined space, reducing the risk of further complications."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Waiting!",
+          "reasoning": "Waiting for professional assistance is the safest course of action in an elevator emergency, as attempting to exit independently carries significant risks. It is best to rely on trained personnel to resolve the situation."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Waiting!",
+          "reasoning": "Waiting for professional assistance is the safest and most logical course of action. Attempting to exit through a small opening is unnecessarily risky, as the elevator could move unexpectedly."
         }
       ]
     }
