@@ -25,7 +25,7 @@
 		<section class="section">
 			<h2>The AI lineup</h2>
 			<p>
-				We asked ten AI models the same questions you're about to answer. Here's who showed up:
+				We asked eleven AI models the same questions you're about to answer. Here's who showed up:
 			</p>
 
 			<div class="model-groups">
@@ -42,6 +42,13 @@
 					<div class="maker-label">Meta</div>
 					<ul class="model-list">
 						<li><strong>Llama 3.1</strong> — Meta's open-source model, also running on local hardware</li>
+					</ul>
+				</div>
+
+				<div class="model-group">
+					<div class="maker-label">Mistral</div>
+					<ul class="model-list">
+						<li><strong>Mistral 7B</strong> — Mistral's open-source model, running on local hardware</li>
 					</ul>
 				</div>
 
@@ -83,8 +90,8 @@
 		<section class="section">
 			<h2>How the score works</h2>
 			<p>
-				For each question, we look at how many of the ten models chose the same option you did.
-				If eight out of ten agreed with you, that question pushes your score up. If only one did,
+				For each question, we look at how many of the eleven models chose the same option you did.
+				If eight out of eleven agreed with you, that question pushes your score up. If only one did,
 				it barely moves the needle.
 			</p>
 			<p>
@@ -108,7 +115,7 @@
 				certain things. It's pattern-matching at a massive scale, not genuine preference.
 			</p>
 			<p>
-				That said, it's still genuinely interesting when ten different models from four different
+				That said, it's still genuinely interesting when eleven different models from five different
 				companies mostly agree on something. Draw your own conclusions.
 			</p>
 		</section>

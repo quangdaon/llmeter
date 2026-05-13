@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { page } from '$app/state';
 	import { resolve, base } from '$app/paths';
-	import { siAnthropic, siGoogle, siMeta, siOllama } from 'simple-icons';
+	import { siAnthropic, siGoogle, siMeta, siMistralai, siOllama } from 'simple-icons';
 
 	const is404 = $derived(page.status === 404);
 
@@ -11,6 +11,7 @@
 		{ name: 'Google', color: '#4285F4', path: siGoogle.path },
 		{ name: 'OpenAI', color: '#10A37F', path: null },
 		{ name: 'Meta', color: '#0082FB', path: siMeta.path },
+		{ name: 'Mistral', color: '#FF7000', path: siMistralai.path },
 		{ name: 'Ollama', color: '#6b7280', path: siOllama.path },
 	];
 </script>

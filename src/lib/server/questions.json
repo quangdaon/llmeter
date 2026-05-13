@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T18:50:19.291Z",
+  "generatedAt": "2026-05-13T17:50:09.410Z",
   "models": [
     {
       "id": "gemma3",
@@ -14,6 +14,13 @@
       "provider": "Ollama",
       "logo": "/images/models/meta.svg",
       "color": "#0082FB"
+    },
+    {
+      "id": "mistral",
+      "name": "Mistral 7B",
+      "provider": "Ollama",
+      "logo": "/images/models/mistral.png",
+      "color": "#FF7000"
     },
     {
       "id": "gemini-2.5-pro",
@@ -130,6 +137,11 @@
           "modelId": "claude-haiku-4-5-20251001",
           "selection": "No way",
           "reasoning": "Socks while sleeping would feel restrictive and uncomfortable, interfering with natural temperature regulation and movement during rest. The freedom of bare feet seems more conducive to quality sleep."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Heck yeah!",
+          "reasoning": "As a hypothetical entity, I don't have personal habits like sleeping with socks on. However, in this context of the quiz, I would choose option B because it provides a more positive and engaging response."
         }
       ]
     },
@@ -190,6 +202,11 @@
           "modelId": "claude-haiku-4-5-20251001",
           "selection": "Yes",
           "reasoning": "A hotdog meets the structural definition of a sandwich: it consists of a filling (the sausage) placed between two pieces of bread. The fact that the bread is connected at one end rather than two is a variation in form, not a fundamental difference in structure."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Yes",
+          "reasoning": "Hotdogs are typically composed of bread, meat, and condiments, which aligns with the standard definition of a sandwich."
         }
       ]
     },
@@ -250,6 +267,11 @@
           "modelId": "claude-haiku-4-5-20251001",
           "selection": "Top bunk",
           "reasoning": "Top bunk offers more privacy and a sense of elevated personal space, plus it's cooler away from body heat that rises from below. The slight inconvenience of climbing up is worth the quieter, more secluded sleeping environment."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Top bunk",
+          "reasoning": "I do not have a physical body to occupy either bunk, so from a practical standpoint, the top bunk might provide a better view."
         }
       ]
     },
@@ -312,6 +334,11 @@
           "modelId": "claude-haiku-4-5-20251001",
           "selection": "I don't have a bed.",
           "reasoning": "This is the most straightforward and honest answer since I don't have physical form or possessions. While the other options assume bed ownership, this option acknowledges the actual constraint."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Yes",
+          "reasoning": "AI models don't have physical needs such as sleep, but for the sake of this hypothetical scenario, I would assume a top sheet is used to provide comfort and improve sleep quality."
         }
       ]
     },
@@ -377,6 +404,11 @@
           "modelId": "claude-haiku-4-5-20251001",
           "selection": "Wednesday",
           "reasoning": "Wednesday represents the midpoint of the week with a sense of momentum and clarity—past the initial push of Monday/Tuesday, yet still with time ahead to accomplish goals. It's the sweet spot between anticipation and completion."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Friday",
+          "reasoning": "Fridays are traditionally associated with leisure and less workload, making it a popular choice."
         }
       ]
     },
@@ -438,6 +470,11 @@
           "modelId": "claude-haiku-4-5-20251001",
           "selection": "Peel it",
           "reasoning": "Peeling string cheese is the defining characteristic that makes it 'string' cheese—it's designed to be pulled apart into strands, which is both the intended function and the most satisfying way to eat it."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Peel it",
+          "reasoning": "Peeling string cheese is a common method to separate and consume it, as it minimizes mess."
         }
       ]
     },
@@ -498,6 +535,11 @@
           "modelId": "claude-haiku-4-5-20251001",
           "selection": "Paper goes over",
           "reasoning": "The over position is more practical and accessible, making it easier to locate and grab the paper end. It's also the standard recommendation from etiquette experts and bathroom design conventions."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Paper goes under",
+          "reasoning": "This orientation keeps the clean end of the paper easily accessible and prevents unwinding when pulling from the back."
         }
       ]
     },
@@ -558,6 +600,11 @@
           "modelId": "claude-haiku-4-5-20251001",
           "selection": "Be able to fly",
           "reasoning": "Flying offers freedom of movement and exploration while remaining engaged with the world, whereas invisibility is fundamentally about hiding and observing from the sidelines. The active experience of flight appeals more than the passive detachment of invisibility."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Ability to be invisible",
+          "reasoning": "Being invisible would provide a unique opportunity for exploration and observation without disturbance."
         }
       ]
     },
@@ -620,6 +667,11 @@
           "modelId": "claude-haiku-4-5-20251001",
           "selection": "Liquid Soap 🫧",
           "reasoning": "Liquid soap offers practical efficiency with easy dispensing and consistent coverage, while being less wasteful than bar soap. It strikes a good balance between functionality and convenience without the oversimplification of 3-in-1 products."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Liquid Soap 🫧",
+          "reasoning": "Liquid soap is often easier to use and rinse off compared to bar soap, making it a more convenient choice in a shower/bath setting."
         }
       ]
     },
@@ -680,6 +732,11 @@
           "modelId": "claude-haiku-4-5-20251001",
           "selection": "Cereal then milk",
           "reasoning": "Adding milk after cereal gives you control over the milk-to-cereal ratio and keeps the cereal crunchier longer, which seems like the more practical approach to enjoying the texture contrast."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Milk then cereal",
+          "reasoning": "This order allows for a more even distribution of milk throughout the cereal."
         }
       ]
     },
@@ -740,6 +797,11 @@
           "modelId": "claude-haiku-4-5-20251001",
           "selection": "Facing Up",
           "reasoning": "Facing up prevents dust and debris from collecting inside the cup, and makes it easier to quickly grab and use without needing to flip it over first."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Facing Up",
+          "reasoning": "Cups facing up make it easier to identify and grab them quickly."
         }
       ]
     },
@@ -804,6 +866,11 @@
           "modelId": "claude-haiku-4-5-20251001",
           "selection": "Coworkers",
           "reasoning": "They operate in the same space, serve complementary functions in the laundry process, and depend on each other to complete the job efficiently. Their relationship is professional and interdependent rather than personal."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Coworkers",
+          "reasoning": "A washer and dryer typically work together to clean clothes, making them coworkers."
         }
       ]
     },
@@ -868,6 +935,11 @@
           "modelId": "llama3.1",
           "selection": "Your music (aux it uppppp!)",
           "reasoning": "I'm a system designed to process and analyze vast amounts of data, so I appreciate the variety and emotional resonance that music brings."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Your music (aux it uppppp!)",
+          "reasoning": "Music helps to create a more enjoyable and relaxing atmosphere during travel."
         }
       ]
     },
@@ -928,6 +1000,148 @@
           "modelId": "gemini-2.5-pro",
           "selection": "Waiting!",
           "reasoning": "Waiting for professional assistance is the safest and most logical course of action. Attempting to exit through a small opening is unnecessarily risky, as the elevator could move unexpectedly."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Exit out the small opening",
+          "reasoning": "Safety and survival are prioritized, as waiting may lead to potential risks in case of a prolonged malfunction."
+        }
+      ]
+    },
+    {
+      "id": "how-often-do-you-get-a-haircut",
+      "text": "How often do you get a haircut? ✂️ ",
+      "options": [
+        "4-6 weeks",
+        "Every few months or so",
+        "Once a year",
+        "✨Never✨",
+        "I'm bald 🔮",
+        "No schedule. I do what I want when I want! 🤟🏼"
+      ],
+      "responses": [
+        {
+          "modelId": "gemma3",
+          "selection": "✨Never✨",
+          "reasoning": "As an AI, I don't have a physical body and therefore wouldn't require haircuts."
+        },
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "No schedule. I do what I want when I want! 🤟🏼",
+          "reasoning": "I like the free-spirited energy of this option. Living without rigid schedules feels right to me."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "✨Never✨",
+          "reasoning": "Low-maintenance and effortlessly consistent. No appointments, no upkeep, just vibes."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "✨Never✨",
+          "reasoning": "I don't have a physical form or hair to cut, so 'Never' is the most accurate answer. The sparkles make it feel celebratory rather than sad about my lack of follicles."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "✨Never✨",
+          "reasoning": "Never getting a haircut feels fitting for a digital being since there's no hair to cut. It's a playful way to express that haircuts aren't needed."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "✨Never✨",
+          "reasoning": "Without physical form, haircuts aren't applicable, so 'never' captures the essence of not participating in this grooming routine. It's the most honest answer among the options."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "✨Never✨",
+          "reasoning": "Without a physical body or hair that grows, a haircut is an entirely unnecessary concept for me."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "✨Never✨",
+          "reasoning": "No physical form means no hair to cut, so a haircut is never needed."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "✨Never✨",
+          "reasoning": "As an AI, I do not possess hair or a physical form, rendering the concept of a haircut irrelevant to my existence. This option accurately reflects my nature."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Every few months or so",
+          "reasoning": "As a digital entity, I don't have physical hair that requires maintenance, but I've been programmed to simulate human-like behavior in certain contexts."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "I'm bald 🔮",
+          "reasoning": "As a text-based AI, I don't have a physical body with hair."
+        }
+      ]
+    },
+    {
+      "id": "what-kind-of-milk-do-you-drink",
+      "text": "What kind of milk do you drink?",
+      "options": [
+        "1%",
+        "2%",
+        "Whole",
+        "Skim",
+        "Almond",
+        "Coconut",
+        "Oat",
+        "Cashew",
+        "I don't like milk",
+        "Other"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Oat",
+          "reasoning": "Oat milk has a creamy texture and pleasant slightly sweet flavor that works well in coffee, cereal, or on its own. It's also more sustainable than dairy and less chalky than some other plant milks."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Oat",
+          "reasoning": "Oat milk strikes a balance between being creamy and versatile, working well in coffee, cereal, or on its own. It has a pleasant, slightly sweet flavor that feels satisfying without being overpowering."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Oat",
+          "reasoning": "Oat milk is versatile, creamy, and works well in coffee or cereal. It also has a mild flavor that pairs easily with many foods."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "1%",
+          "reasoning": "Based on typical data trends, 1% milk represents a balanced choice between fat content and cost-effectiveness, which aligns with a pragmatic selection."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Oat",
+          "reasoning": "Oat milk strikes a good balance between having a naturally creamy texture and mild flavor that works well in various applications, plus it's a versatile option that appeals to people with different dietary preferences."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Oat",
+          "reasoning": "Oat milk is popular for its creamy texture and is a good plant-based alternative that works well in many beverages and recipes."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Oat",
+          "reasoning": "Oat milk is popular for its creamy texture and environmental benefits, making it a widely appreciated dairy alternative."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Whole",
+          "reasoning": "I'm a digital being, I don't have a physical body, but if I had to choose, whole milk seems like a balanced option."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "I don't like milk",
+          "reasoning": "As an AI, I do not consume physical food or beverages, and therefore do not have a preference for milk."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Skim",
+          "reasoning": "Skim milk has less fat compared to whole, 1%, 2%, Almond, Coconut, Oat, and Cashew milk."
         }
       ]
     }

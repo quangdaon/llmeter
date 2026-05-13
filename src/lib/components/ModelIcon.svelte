@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import { siAnthropic, siGoogle, siMeta, siOllama } from 'simple-icons';
+	import { siAnthropic, siGoogle, siMeta, siMistralai, siOllama } from 'simple-icons';
 
 	let {
 		logo,
@@ -15,6 +15,7 @@
 		anthropic: siAnthropic,
 		google: siGoogle,
 		meta: siMeta,
+		mistral: siMistralai,
 		ollama: siOllama,
 	};
 
