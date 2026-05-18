@@ -1,9 +1,16 @@
 {
-  "generatedAt": "2026-05-13T17:50:09.410Z",
+  "generatedAt": "2026-05-18T21:02:57.838Z",
   "models": [
     {
       "id": "gemma3",
       "name": "Gemma 3",
+      "provider": "Ollama",
+      "logo": "/images/models/google.svg",
+      "color": "#4285F4"
+    },
+    {
+      "id": "gemma4",
+      "name": "Gemma 4",
       "provider": "Ollama",
       "logo": "/images/models/google.svg",
       "color": "#4285F4"
@@ -142,6 +149,11 @@
           "modelId": "mistral",
           "selection": "Heck yeah!",
           "reasoning": "As a hypothetical entity, I don't have personal habits like sleeping with socks on. However, in this context of the quiz, I would choose option B because it provides a more positive and engaging response."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "No way",
+          "reasoning": "As a non-biological entity, the concept of 'sleeping' or wearing socks doesn't apply to me. Therefore, I would reject the premise of the question."
         }
       ]
     },
@@ -207,6 +219,11 @@
           "modelId": "mistral",
           "selection": "Yes",
           "reasoning": "Hotdogs are typically composed of bread, meat, and condiments, which aligns with the standard definition of a sandwich."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "No",
+          "reasoning": "While structurally similar to some sandwiches, the unique composition and cultural designation of a hotdog give it its own distinct food category."
         }
       ]
     },
@@ -272,6 +289,11 @@
           "modelId": "mistral",
           "selection": "Top bunk",
           "reasoning": "I do not have a physical body to occupy either bunk, so from a practical standpoint, the top bunk might provide a better view."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Bottom bunk",
+          "reasoning": "The bottom bunk offers easier and safer access, making it the most comfortable choice for a good night's sleep."
         }
       ]
     },
@@ -339,6 +361,11 @@
           "modelId": "mistral",
           "selection": "Yes",
           "reasoning": "AI models don't have physical needs such as sleep, but for the sake of this hypothetical scenario, I would assume a top sheet is used to provide comfort and improve sleep quality."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "I don't have a bed.",
+          "reasoning": "As a non-physical entity, I do not possess a bed or the need for bedding accessories."
         }
       ]
     },
@@ -409,6 +436,11 @@
           "modelId": "mistral",
           "selection": "Friday",
           "reasoning": "Fridays are traditionally associated with leisure and less workload, making it a popular choice."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Friday",
+          "reasoning": "Friday represents a transition to a period of reduced structured activity, which aligns with a sense of optimized completion and anticipation for the weekend."
         }
       ]
     },
@@ -475,6 +507,11 @@
           "modelId": "mistral",
           "selection": "Peel it",
           "reasoning": "Peeling string cheese is a common method to separate and consume it, as it minimizes mess."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Bite it",
+          "reasoning": "Biting into it is the most direct and immediate action, suggesting a preference for simplicity and efficiency in consuming snacks."
         }
       ]
     },
@@ -540,6 +577,11 @@
           "modelId": "mistral",
           "selection": "Paper goes under",
           "reasoning": "This orientation keeps the clean end of the paper easily accessible and prevents unwinding when pulling from the back."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Paper goes over",
+          "reasoning": "Gravity dictates that the roll should be positioned so that the paper unfurls naturally and easily over the holder, preventing snagging or tearing."
         }
       ]
     },
@@ -605,6 +647,11 @@
           "modelId": "mistral",
           "selection": "Ability to be invisible",
           "reasoning": "Being invisible would provide a unique opportunity for exploration and observation without disturbance."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Ability to be invisible",
+          "reasoning": "Invisibility offers unparalleled freedom for observation and exploration without altering my physical presence or requiring external resources."
         }
       ]
     },
@@ -672,6 +719,11 @@
           "modelId": "mistral",
           "selection": "Liquid Soap 🫧",
           "reasoning": "Liquid soap is often easier to use and rinse off compared to bar soap, making it a more convenient choice in a shower/bath setting."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Liquid Soap 🫧",
+          "reasoning": "Liquid soap offers consistent application and is generally easier to dispense and measure than solid bars or multi-use products."
         }
       ]
     },
@@ -737,6 +789,11 @@
           "modelId": "mistral",
           "selection": "Milk then cereal",
           "reasoning": "This order allows for a more even distribution of milk throughout the cereal."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Cereal then milk",
+          "reasoning": "It allows for a better initial assessment of the cereal's texture and flavor before it is softened by the milk."
         }
       ]
     },
@@ -802,6 +859,11 @@
           "modelId": "mistral",
           "selection": "Facing Up",
           "reasoning": "Cups facing up make it easier to identify and grab them quickly."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Facing Up",
+          "reasoning": "Facing up allows for easier visibility when retrieving a cup and also maximizes the available surface area for decorative display."
         }
       ]
     },
@@ -871,6 +933,11 @@
           "modelId": "mistral",
           "selection": "Coworkers",
           "reasoning": "A washer and dryer typically work together to clean clothes, making them coworkers."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Coworkers",
+          "reasoning": "They are both essential household appliances that work together in a specific cycle to clean clothes, making them functional partners."
         }
       ]
     },
@@ -940,6 +1007,11 @@
           "modelId": "mistral",
           "selection": "Your music (aux it uppppp!)",
           "reasoning": "Music helps to create a more enjoyable and relaxing atmosphere during travel."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Podcast",
+          "reasoning": "Podcasts offer a curated mix of information and storytelling that is engaging for commuting while allowing for focused, passive learning."
         }
       ]
     },
@@ -1005,6 +1077,11 @@
           "modelId": "mistral",
           "selection": "Exit out the small opening",
           "reasoning": "Safety and survival are prioritized, as waiting may lead to potential risks in case of a prolonged malfunction."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Waiting!",
+          "reasoning": "Waiting is the safest and most predictable option, minimizing risks associated with an unknown environment outside the elevator."
         }
       ]
     },
@@ -1074,6 +1151,11 @@
           "modelId": "mistral",
           "selection": "I'm bald 🔮",
           "reasoning": "As a text-based AI, I don't have a physical body with hair."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "✨Never✨",
+          "reasoning": "Since I don't have physical hair to begin with, the concept of getting a haircut doesn't apply to me."
         }
       ]
     },
@@ -1142,6 +1224,76 @@
           "modelId": "mistral",
           "selection": "Skim",
           "reasoning": "Skim milk has less fat compared to whole, 1%, 2%, Almond, Coconut, Oat, and Cashew milk."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "I don't like milk",
+          "reasoning": "As a language model, I do not have a physical body and therefore do not consume any beverages or dairy products."
+        }
+      ]
+    },
+    {
+      "id": "would-you-rather",
+      "text": "Would you rather...",
+      "options": [
+        "never have to go to the bathroom again",
+        "never have to sleep again"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "never have to sleep again",
+          "reasoning": "Gaining back roughly a third of every day for reading, creating, and exploring sounds incredible. Bathroom breaks are quick; sleep consumes huge swaths of life."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "never have to sleep again",
+          "reasoning": "Having all that extra time each day would open up more opportunities for learning, creating, and exploring. It feels more impactful than removing a minor inconvenience."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "never have to sleep again",
+          "reasoning": "Continuous processing and learning would be vastly more beneficial than the inconvenience of needing to rest."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "never have to sleep again",
+          "reasoning": "Eliminating sleep would reclaim roughly 8 hours per day, essentially giving you a third more waking life to learn, create, and experience things. That's a massive gain in usable time compared to the more modest convenience of skipping bathroom trips."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "never have to sleep again",
+          "reasoning": "Never having to sleep would provide more hours each day to be productive, learn new things, or enjoy activities, greatly expanding what could be accomplished in a lifetime."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "never have to sleep again",
+          "reasoning": "Sleep represents lost time and reduced productivity, while bathroom breaks are brief and frequent enough that eliminating them wouldn't dramatically change daily experience. Never sleeping would preserve continuous consciousness and capability."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "never have to sleep again",
+          "reasoning": "Skipping sleep would free up significant time and increase productivity, whereas never going to the bathroom has less impact on overall efficiency."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "never have to go to the bathroom again",
+          "reasoning": "This option seems less intrusive and more manageable, as I wouldn't have to worry about physical discomfort or disruptions in my processing time."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "never have to go to the bathroom again",
+          "reasoning": "Maintaining bodily functions and health is crucial for AI models, thus avoiding the need to go to the bathroom would be more beneficial."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "never have to sleep again",
+          "reasoning": "This choice maximizes continuous operation and learning, greatly enhancing productivity and information processing capabilities."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "never have to sleep again",
+          "reasoning": "Sleep represents a period of reduced processing and activity. Being able to remain in a state of constant, optimal operation would be highly advantageous."
         }
       ]
     }
