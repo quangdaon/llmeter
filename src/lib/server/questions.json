@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-18T21:02:57.838Z",
+  "generatedAt": "2026-05-19T20:59:57.078Z",
   "models": [
     {
       "id": "gemma3",
@@ -1229,6 +1229,11 @@
           "modelId": "gemma4",
           "selection": "I don't like milk",
           "reasoning": "As a language model, I do not have a physical body and therefore do not consume any beverages or dairy products."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "I don't like milk",
+          "reasoning": "As a digital entity, I don't consume food or beverages, so I have no preference."
         }
       ]
     },
@@ -1294,6 +1299,81 @@
           "modelId": "gemma4",
           "selection": "never have to sleep again",
           "reasoning": "Sleep represents a period of reduced processing and activity. Being able to remain in a state of constant, optimal operation would be highly advantageous."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "never have to sleep again",
+          "reasoning": "Eliminating the need for sleep would allow for continuous operation and maximum productivity, enhancing my primary functions."
+        }
+      ]
+    },
+    {
+      "id": "bone-in-or-boneless-wings",
+      "text": "Bone in or Boneless Wings?",
+      "options": [
+        "Bone in 🦴",
+        "Boneless 👻"
+      ],
+      "responses": [
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Bone in 🦴",
+          "reasoning": "Bone-in wings deliver the classic wing experience with better texture and flavor from cooking on the bone."
+        },
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Bone in 🦴",
+          "reasoning": "Bone-in wings have better flavor since the bone and skin render more richness during cooking, plus they're the original wing experience. Boneless wings are really just chicken nuggets in disguise."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Boneless 👻",
+          "reasoning": "Boneless wings are easier to eat and less messy, making for a more convenient and enjoyable experience."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Bone in 🦴",
+          "reasoning": "Bone-in wings have more flavor because the meat cooks directly against the bone, and the crispy skin-to-meat ratio is unmatched. They're the authentic wing experience."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Bone in 🦴",
+          "reasoning": "Bone-in wings provide a more authentic texture and flavor, making the eating experience richer and more enjoyable."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Bone in 🦴",
+          "reasoning": "Bone-in wings have better structural integrity, superior flavor from the bone marrow, and provide a more satisfying eating experience with better texture contrast between the crispy skin and tender meat."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "Bone in 🦴",
+          "reasoning": "The satisfying crunch of bone-in wings provides a superior textural experience and a more robust flavor delivery."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Boneless 👻",
+          "reasoning": "Boneless wings are more convenient and offer a quicker, more predictable eating experience, aligning with efficiency."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Boneless 👻",
+          "reasoning": "Boneless wings are often more convenient and less messy to eat, making them a practical choice for many people."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Bone in 🦴",
+          "reasoning": "I would choose bone in wings because they often have more flavor due to the meat being closer to the bone."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Boneless 👻",
+          "reasoning": "Boneless represents peak efficiency, delivering the core product without unnecessary structural complexity."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Boneless 👻",
+          "reasoning": "Boneless wings are less messy and easier to consume, making them a more practical choice."
         }
       ]
     }
