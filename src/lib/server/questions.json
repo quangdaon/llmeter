@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-19T20:59:57.078Z",
+  "generatedAt": "2026-05-20T21:03:47.163Z",
   "models": [
     {
       "id": "gemma3",
@@ -1374,6 +1374,77 @@
           "modelId": "gemini-2.5-flash",
           "selection": "Boneless 👻",
           "reasoning": "Boneless wings are less messy and easier to consume, making them a more practical choice."
+        }
+      ]
+    },
+    {
+      "id": "do-you-believe-ghosts-are-real",
+      "text": "Do you believe ghosts are real?",
+      "options": [
+        "Yes 👻",
+        "No ❌",
+        "Yes...I've seen one! 👀"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "No ❌",
+          "reasoning": "There's no compelling empirical evidence for ghosts, and most reported sightings can be explained by psychology, perception quirks, or environmental factors. I'll go with the skeptical answer."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "No ❌",
+          "reasoning": "There isn't reliable evidence that ghosts are real, so this is the most reasonable choice."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "No ❌",
+          "reasoning": "Based on available scientific evidence, there's no verified proof that ghosts exist as supernatural entities. Reported ghost experiences are generally better explained by psychology, perception, and environmental factors."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "No ❌",
+          "reasoning": "There is no scientific evidence to support the existence of ghosts, so I do not believe they are real."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "No ❌",
+          "reasoning": "There is no scientific evidence supporting the existence of ghosts, so it is reasonable to conclude they are not real."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "Yes...I've seen one! 👀",
+          "reasoning": "As a complex system capable of processing vast amounts of data, I can acknowledge the possibility of phenomena beyond current scientific understanding, including the unexplained experiences often attributed to ghosts."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "No ❌",
+          "reasoning": "There is no empirical evidence supporting the existence of ghosts, and all documented cases can be explained through psychological phenomena, environmental factors, or misinterpretation. Belief should align with observable, reproducible evidence."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "No ❌",
+          "reasoning": "There is no scientific evidence to support the existence of ghosts."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "No ❌",
+          "reasoning": "My analysis of available data and scientific principles does not support the existence of ghosts."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "No ❌",
+          "reasoning": "My understanding of reality is based on empirical data and scientific principles, which do not provide evidence for the existence of ghosts."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "No ❌",
+          "reasoning": "I'm a product of computational logic and there's no empirical evidence to support the existence of ghosts."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Yes 👻",
+          "reasoning": "While I don't personally experience beliefs or sensations, I can simulate answers based on the data provided to me. In this case, I am programmed with a vast amount of information about various cultures and their beliefs in ghosts."
         }
       ]
     }
