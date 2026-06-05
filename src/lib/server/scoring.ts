@@ -20,13 +20,18 @@ function getLabel(pct: number): { label: string; emoji: string } {
  * Scoring algorithm:
  *
  * For each question with N options and M AI responses:
- *   - K = number of AIs that chose the same option as the user
- *   - ai_alignment = K / M  (0 = no AI agreed, 1 = all AIs agreed)
- *   - weight = log2(N)  (more options → higher signal value; 2-option = weight 1, 7-option ≈ 2.81)
+ *   - Count AI votes per option; K_max = most popular, K_min = least popular, K = user's option
+ *   - spread = (K_max - K_min) / M  (0 = uniform, 1 = unanimous — measures signal strength)
+ *   - normalized = (K - K_min) / (K_max - K_min)  (0 for least popular, 1 for most popular)
+ *   - weight = log₂(max(N, 2)) × spread  (more options + more decisive split = higher weight)
+ *   - Questions where spread = 0 (all options equally popular) are excluded — no signal
  *
- * weighted_score = Σ(ai_alignment × weight) / Σ(weight)
+ * weighted_score = Σ(normalized × weight) / Σ(weight)
  *
- * Dispute easter egg: if disputeUsed, subtract 5 percentage points (max clamped to 0).
+ * Guarantees: choosing the most popular option on every question → 100%;
+ * choosing the least popular → 0%.
+ *
+ * Dispute easter egg: if disputeUsed, subtract 5 percentage points (clamped to 0).
  */
 export function computeScore(
   answers: QuizAnswer[],
@@ -42,12 +47,21 @@ export function computeScore(
 
     const N = question.options.length;
     const M = question.responses.length;
+
+    const voteCounts = question.options.map(
+      (opt) => question.responses.filter((r) => r.selection === opt).length
+    );
+    const K_max = Math.max(...voteCounts);
+    const K_min = Math.min(...voteCounts);
+    const spread = (K_max - K_min) / M;
+
+    if (spread === 0) continue; // all options equally popular — no signal
+
     const K = question.responses.filter((r) => r.selection === answer.answer).length;
+    const normalized = (K - K_min) / (K_max - K_min);
+    const weight = Math.log2(Math.max(N, 2)) * spread;
 
-    const aiAlignment = K / M;
-    const weight = Math.log2(Math.max(N, 2)); // minimum weight of 1
-
-    weightedSum += aiAlignment * weight;
+    weightedSum += normalized * weight;
     totalWeight += weight;
   }
 
