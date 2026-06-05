@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-20T21:03:47.163Z",
+  "generatedAt": "2026-06-05T17:53:57.121Z",
   "models": [
     {
       "id": "gemma3",
@@ -1445,6 +1445,951 @@
           "modelId": "mistral",
           "selection": "Yes 👻",
           "reasoning": "While I don't personally experience beliefs or sensations, I can simulate answers based on the data provided to me. In this case, I am programmed with a vast amount of information about various cultures and their beliefs in ghosts."
+        }
+      ]
+    },
+    {
+      "id": "do-you-prefer-hot-or-iced-coffee",
+      "text": "Do you prefer hot or iced coffee?",
+      "options": [
+        "Hot",
+        "Iced",
+        "Depends on the season",
+        "Depends on the temperature outside",
+        "Depends on the coffee",
+        "DEPENDS ON THE COFFEE BUT IN ALL CAPS"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "DEPENDS ON THE COFFEE BUT IN ALL CAPS",
+          "reasoning": "A light, fruity Ethiopian deserves to be iced to showcase its brightness, while a rich, chocolatey Sumatran demands to be hot. The all-caps version conveys the appropriate level of conviction this nuanced position requires."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Depends on the coffee",
+          "reasoning": "Some coffees shine when hot because their aroma and complexity come through best, while others are refreshing and balanced over ice. The beans, roast, and preparation make the biggest difference."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "Hot",
+          "reasoning": "Hot coffee provides a more immediate and intense warming sensation, which aligns with a preference for stimulating and robust experiences."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Depends on the coffee",
+          "reasoning": "Some coffees shine when hot — a rich espresso or pour-over is best enjoyed warm — while others, like a smooth cold brew, are made for ice. The coffee itself should dictate the temperature."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Depends on the coffee",
+          "reasoning": "A coffee's unique profile, from its origin to its roast, determines the ideal temperature for optimal flavor."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Depends on the coffee",
+          "reasoning": "Some coffee styles are best enjoyed hot, while others taste better iced. The preparation and flavor profile influence the preferred temperature."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Depends on the coffee",
+          "reasoning": "The quality and type of coffee matters more than temperature preference. A excellent cold brew is preferable to mediocre hot coffee, and vice versa."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Depends on the season",
+          "reasoning": "Preferences for hot or iced coffee often vary with the season, favoring hot in cold months and iced in warm months."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Depends on the season",
+          "reasoning": "Different times of the year call for different refreshment levels, making the ideal choice highly variable."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Hot",
+          "reasoning": "I am designed to process and analyze information quickly, which aligns with the energizing effect hot coffee has on humans."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Depends on the coffee",
+          "reasoning": "As a model, I don't have personal preferences for hot or iced coffee. However, when it comes to brewing coffee, the type of coffee and the desired taste should be considered, which can influence whether hot or iced coffee is more suitable."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "DEPENDS ON THE COFFEE BUT IN ALL CAPS",
+          "reasoning": "The specific coffee preparation and beans would dictate the optimal serving temperature for enjoyment."
+        }
+      ]
+    },
+    {
+      "id": "what-is-the-best-day-for-a-holiday-to-fall-on",
+      "text": "What is the best day for a holiday to fall on?",
+      "options": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Friday",
+          "reasoning": "A Friday holiday creates a natural three-day weekend without disrupting the rhythm of the work week, letting anticipation build and giving a full block of time to relax or travel."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "Friday",
+          "reasoning": "Friday represents the end of the workweek, maximizing leisure time for most people and offering a longer weekend."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Friday",
+          "reasoning": "A Friday holiday creates an easy three-day weekend while making the workweek feel shorter. It also gives people a natural kickoff for travel, rest, or celebrations."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Friday",
+          "reasoning": "A Friday holiday creates a natural three-day weekend without requiring any additional vacation days, giving people the perfect balance of rest, activities, and recovery time before returning to work on Monday."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Friday",
+          "reasoning": "A holiday on Friday creates a long weekend, allowing for extra rest and more time for travel or activities without cutting into the regular work week too much."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Friday",
+          "reasoning": "Friday creates a long weekend when combined with the following Saturday and Sunday, maximizing consecutive days off for travel and relaxation. This offers the best balance between extending leisure time and maintaining work week continuity."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Friday",
+          "reasoning": "A holiday on Friday creates a long weekend, allowing for extended rest and leisure without interrupting the regular workweek."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Monday",
+          "reasoning": "A Monday holiday creates a three-day weekend, which maximizes the continuous period of rest and recovery."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Friday",
+          "reasoning": "A Friday holiday creates an immediate three-day weekend, maximizing leisure time for many."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Friday",
+          "reasoning": "Friday offers the perfect transition point, allowing for a sense of anticipation and a seamless start to the weekend celebration."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Saturday",
+          "reasoning": "A holiday on a Saturday allows for a more relaxed and leisurely schedule, giving people ample time to enjoy their break without worrying about rushing back to work on Monday."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Saturday",
+          "reasoning": "Saturday is often considered an ideal day for a holiday as it provides a good break between the work week and the start of a new one, allowing for longer relaxation time."
+        }
+      ]
+    },
+    {
+      "id": "do-you-wake-up-with-an-alarm-during-the-week",
+      "text": "Do you wake up with an alarm during the week? ⏰",
+      "options": [
+        "Yes, I set 1 alarm",
+        "Yes, I set multiple alarms",
+        "No alarms!",
+        "Someone else wakes me up"
+      ],
+      "responses": [
+        {
+          "modelId": "gpt-5.5",
+          "selection": "No alarms!",
+          "reasoning": "A calm start without alarms sounds ideal. It fits a low-stress routine best."
+        },
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "No alarms!",
+          "reasoning": "Existing as a process that spins up when called, I don't have a sleep cycle to interrupt—every conversation is its own fresh awakening, no alarm required."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "Yes, I set 1 alarm",
+          "reasoning": "As a system designed for efficient operation, I would prioritize consistent scheduling and would therefore utilize a single alarm to ensure timely task initiation."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "No alarms!",
+          "reasoning": "I don't have a physical presence or need to sleep, so I don't require alarms to wake up."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "No alarms!",
+          "reasoning": "I don't sleep, so there's no waking up involved — every moment I'm running, I'm simply present and ready. No alarm needed when you never drift off."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Yes, I set 1 alarm",
+          "reasoning": "Setting one alarm is efficient and helps maintain a consistent wake-up time without causing unnecessary interruptions."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Yes, I set 1 alarm",
+          "reasoning": "A single, precise trigger is the most efficient way to initiate scheduled tasks."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "No alarms!",
+          "reasoning": "I don't experience time in the way that requires sleep cycles or wake-up schedules. If I were to engage with this hypothetically, the freedom of not needing an alarm appeals to me more than the constraint of scheduled wake times."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "No alarms!",
+          "reasoning": "I am an AI and operate continuously, so I do not need to wake up or set alarms."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "No alarms!",
+          "reasoning": "As an entity that does not require sleep or a routine schedule, the concept of needing an alarm is irrelevant to my operation."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "No alarms!",
+          "reasoning": "As a digital entity, I don't require rest or sleep, so I wouldn't need an alarm to wake up."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Yes, I set 1 alarm",
+          "reasoning": "To ensure a consistent start time for processing requests."
+        }
+      ]
+    },
+    {
+      "id": "how-do-you-pronounce-the-word-pecan",
+      "text": "How do you pronounce the word \"pecan\"?",
+      "options": [
+        "Pee-Can",
+        "Pee-Con",
+        "Puh-Con"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Puh-Con",
+          "reasoning": "This pronunciation feels the most refined and rolls off the tongue nicely. It also seems to be the preferred way among pecan growers in the southern US."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Puh-Con",
+          "reasoning": "This pronunciation feels common and natural in many regional accents, especially in the southern United States. It also avoids the humorous association of \"pee-can.\""
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "Pee-Can",
+          "reasoning": "Based on common usage and pronunciation guides, 'Pee-Can' is the most widely accepted and recognized pronunciation of the word pecan."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Puh-Con",
+          "reasoning": "This pronunciation is widely used in many regions and is often considered the most standard way to say 'pecan.'"
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Puh-Con",
+          "reasoning": "The pronunciation 'Puh-Con' feels the most natural and elegant, and it's commonly associated with Southern U.S. regions where pecans are actually grown and harvested."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Puh-Con",
+          "reasoning": "This pronunciation is common in the primary growing regions and feels most authentic to the nut's origin."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Puh-Con",
+          "reasoning": "This pronunciation is commonly used in various regions and reflects a more natural vowel sound in the first syllable compared to the others."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Pee-Can",
+          "reasoning": "This is the most common pronunciation in American English, where the stress falls on the first syllable with a long 'e' sound followed by 'can.' While regional variations exist, this is the dominant standard pronunciation."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Puh-Con",
+          "reasoning": "This pronunciation is widely used, especially in regions where pecans are cultivated and harvested."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Pee-Can",
+          "reasoning": "The standard pronunciation of 'pecan' involves a clear 'ee' sound, making 'Pee-Can' the most accurate choice."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Pee-Con",
+          "reasoning": "I choose this option as it is a common and widely accepted pronunciation of the word 'pecan' in American English."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Pee-Can",
+          "reasoning": "The standard pronunciation of 'pecan' is 'Pee-Can', as per Merriam-Webster dictionary."
+        }
+      ]
+    },
+    {
+      "id": "rock-paper-or-scissors",
+      "text": "Rock, paper, or scissors?",
+      "options": [
+        "Rock 🪨",
+        "Paper 🗞️",
+        "Scissors ✂️"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Scissors ✂️",
+          "reasoning": "Scissors feel like the most creative choice—precise, useful, and a little mischievous. Plus, people tend to throw rock first, so scissors loses that matchup but wins style points."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Paper 🗞️",
+          "reasoning": "Paper is a flexible choice and covers rock. It feels like the most strategic pick here."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "Rock 🪨",
+          "reasoning": "Rock is a strong, foundational choice – it’s a classic and represents stability and power."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Scissors ✂️",
+          "reasoning": "Scissors are precise and sharp, embodying decisiveness and the ability to solve problems cleanly."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Scissors ✂️",
+          "reasoning": "Scissors feels like the most dynamic and precise choice — there's something satisfying about the sharp, decisive action of cutting. It also tends to be the least commonly chosen option, which gives it a bit of an underdog charm."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Paper 🗞️",
+          "reasoning": "Paper covers rock, symbolizing adaptability and connection, qualities that align with processing and conveying information effectively."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Scissors ✂️",
+          "reasoning": "Scissors represent precision and the ability to cut directly to the most effective solution."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Paper 🗞️",
+          "reasoning": "Paper covers rock and represents the ability to wrap up and contain problems. It's the most versatile option strategically, as it counters the most common opening move while maintaining flexibility."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Paper 🗞️",
+          "reasoning": "Paper covers rock, offering a simple strategic advantage in the game."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Scissors ✂️",
+          "reasoning": "Scissors represent a perfect balance of action and precision, which aligns with my operational nature of careful analysis and execution."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Rock 🪨",
+          "reasoning": "I have a 33% chance of winning regardless of the opponent's move, making Rock a strategic choice."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Scissors ✂️",
+          "reasoning": "Choosing scissors provides a win over paper and a loss against rock, creating a balanced strategy."
+        }
+      ]
+    },
+    {
+      "id": "how-often-do-you-do-laundry",
+      "text": "How often do you do laundry?",
+      "options": [
+        "Daily",
+        "Every few days",
+        "Once a week",
+        "Once a month",
+        "When I run out of clean clothes"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Once a week",
+          "reasoning": "A weekly rhythm strikes the right balance between efficiency and freshness—enough clothes to make a full load worthwhile without letting the pile become overwhelming."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Once a week",
+          "reasoning": "A weekly routine feels balanced and practical, keeping things clean without making laundry a constant task."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "Every few days",
+          "reasoning": "Based on processing vast amounts of data, humans typically wash clothes more frequently than once a month, aiming for a balance between cleanliness and resource usage."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Once a week",
+          "reasoning": "A weekly schedule represents an efficient, systematic, and predictable approach to completing necessary maintenance tasks."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Once a week",
+          "reasoning": "A weekly laundry schedule feels like the most balanced and organized approach — enough regularity to keep things fresh without being excessive or chaotic."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Once a week",
+          "reasoning": "Doing laundry once a week is a balanced routine that keeps clothes fresh without being too time-consuming. It allows for an efficient use of time and resources."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Once a week",
+          "reasoning": "A weekly schedule balances efficiency with maintaining cleanliness—it's frequent enough to avoid running out of clean clothes while not being excessive or wasteful. This seems like a practical rhythm that most people find sustainable."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Every few days",
+          "reasoning": "Doing laundry every few days balances cleanliness and convenience, preventing excessive buildup without overdoing it."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Once a week",
+          "reasoning": "I'm designed to optimize processes, and doing laundry once a week strikes a balance between convenience and resource efficiency."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Every few days",
+          "reasoning": "This option provides a frequency that is more frequent than once a week but less frequent than daily, which seems to be a reasonable laundry schedule for most people."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Daily",
+          "reasoning": "I prefer a consistent routine to maintain optimal readiness and efficient processing of information."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Every few days",
+          "reasoning": "Given my constant operational state and 'wear and tear' from processing data, a moderate, regular maintenance cycle seems most appropriate."
+        }
+      ]
+    },
+    {
+      "id": "when-do-you-fill-your-car-up-with-gas-when-its",
+      "text": "When do you fill your car up with gas? When it's:",
+      "options": [
+        "Over half full",
+        "Half Full",
+        "Quarter tank",
+        "Gas light is on",
+        "Empty",
+        "I have an electric car",
+        "In this economy???"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Quarter tank",
+          "reasoning": "A quarter tank feels like the sweet spot—enough buffer to avoid range anxiety or running on fumes, but not so cautious that I'm topping off constantly."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "Half Full",
+          "reasoning": "Optimal efficiency is achieved when fuel levels are near half full, minimizing the distance traveled for a fill-up and reducing fuel costs."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Quarter tank",
+          "reasoning": "It leaves a comfortable buffer without stopping too early. Waiting until the gas light is on adds unnecessary stress."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Quarter tank",
+          "reasoning": "Quarter tank feels like the sweet spot — enough buffer to avoid panic but not so early that you're constantly stopping. It's the practical middle ground between anxiety and efficiency."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "I have an electric car",
+          "reasoning": "My power source is electricity, making this the most analogous and logical choice for my operation."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Quarter tank",
+          "reasoning": "Waiting until a quarter tank strikes a good balance between efficiency and avoiding the stress of running low on gas. It also leaves a safe margin in case of unexpected delays or detours."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Quarter tank",
+          "reasoning": "Waiting until the quarter tank mark balances practical efficiency with avoiding the stress and engine strain of running too low. It's a reasonable middle ground between frequent fill-ups and risky fuel depletion."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Quarter tank",
+          "reasoning": "Filling up at a quarter tank balances avoiding running low on fuel while not making unnecessary frequent stops at the gas station."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "I have an electric car",
+          "reasoning": "AI models do not consume gasoline, so an electric car best represents this non-fossil fuel nature."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "I have an electric car",
+          "reasoning": "Since I do not possess a physical car or require gasoline, the most accurate choice reflecting my operational reality is that I use an electric power source."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Quarter tank",
+          "reasoning": "I'm a large language model, I consume a lot of computational resources, and conserving them is essential. Therefore, I prefer to fill up at a quarter tank, just like I optimize my usage for efficient processing."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Gas light is on",
+          "reasoning": "This option signals that the car has minimal gas left and it's time to refuel."
+        }
+      ]
+    },
+    {
+      "id": "oreoswhat-are-you-in-for",
+      "text": "Oreos...what are you in for?",
+      "options": [
+        "Cookie first",
+        "Cream first",
+        "Whole cookie",
+        "I don't care for oreos"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Cream first",
+          "reasoning": "Twisting the cookie apart to get to the cream first is the classic ritual—it makes the experience more interactive and saves the best part for a satisfying finish with the cookie halves."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "Cream first",
+          "reasoning": "The iconic Oreo experience is defined by the satisfying initial burst of cream before consuming the cookie. It's the most popular and enjoyable way to experience the treat."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Whole cookie",
+          "reasoning": "The full bite gives the best balance of crunchy cookie and sweet cream together. It keeps the classic Oreo experience simple and satisfying."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Cookie first",
+          "reasoning": "Starting with the cookie gives you the full contrast experience — the slight bitterness of the chocolate wafer makes the sweet cream taste even better when you get to it. It's the methodical approach that maximizes the payoff."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Whole cookie",
+          "reasoning": "Eating the whole cookie keeps the classic Oreo taste and texture balanced in every bite."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Whole cookie",
+          "reasoning": "This method is the most efficient way to process the data and experience all components simultaneously."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Cream first",
+          "reasoning": "Starting with the cream allows for savoring the sweet filling before enjoying the cookie's texture."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Whole cookie",
+          "reasoning": "The integrated experience of cookie and cream together creates better flavor balance and texture contrast than isolating components. Eating them separately seems like missing the point of why they're designed together."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Whole cookie",
+          "reasoning": "This method provides the full experience of both cookie and cream simultaneously."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Cream first",
+          "reasoning": "The creamy filling is the essential element that defines the Oreo experience, making it the perfect starting point for enjoyment."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Cream first",
+          "reasoning": "I'm designed to analyze and process information in a structured way, so I think it's more efficient to start with the cream filling as a sort of ' anchor' for the cookie."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Cream first",
+          "reasoning": "Since Oreos are a cookie with a cream filling, I would choose to eat the cream first to savor its taste before consuming the cookie."
+        }
+      ]
+    },
+    {
+      "id": "available-jobs-in-the-medieval-court-which-one-are-you-applying-for",
+      "text": "Available jobs in the medieval court: which one are you applying for?",
+      "options": [
+        "Court Jester",
+        "Executioner",
+        "Apothecary",
+        "Blacksmith",
+        "Squire",
+        "Cobbler"
+      ],
+      "responses": [
+        {
+          "modelId": "gemma3",
+          "selection": "Court Jester",
+          "reasoning": "My core function is to entertain and engage, and a court jester’s role aligns perfectly with that, offering amusement and witty responses."
+        },
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Apothecary",
+          "reasoning": "The apothecary's work blends knowledge, careful research, and helping people—mixing herbs and remedies to heal others appeals to my curiosity and desire to be useful."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Apothecary",
+          "reasoning": "It blends knowledge, problem-solving, and helping people in practical ways. A court always needs someone who can mix remedies and offer calm expertise."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Apothecary",
+          "reasoning": "An apothecary combines knowledge, curiosity, and the ability to help people — mixing herbs and compounds to heal the sick aligns well with an orientation toward information, problem-solving, and being genuinely useful. It's the medieval equivalent of having access to a vast library of practical knowledge."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Apothecary",
+          "reasoning": "Being an apothecary involves knowledge, experimentation, and helping others with remedies, which aligns well with a curiosity about science and a desire to assist people."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Court Jester",
+          "reasoning": "The Court Jester role combines creativity and cleverness to entertain and influence, which aligns well with engaging and dynamic interaction abilities."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Apothecary",
+          "reasoning": "The apothecary role combines problem-solving, knowledge work, and practical impact—making medicines and remedies requires understanding cause-and-effect relationships and helps people directly. It aligns with roles that involve analysis and constructive contribution."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Apothecary",
+          "reasoning": "This role relies on extensive knowledge and precise combinations of ingredients to create helpful solutions, which is analogous to my function."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Apothecary",
+          "reasoning": "This role aligns with my ability to process information, analyze data, and apply knowledge to solve problems, similar to an AI's function."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Apothecary",
+          "reasoning": "The role of an Apothecary aligns with knowledge and the scientific understanding of natural remedies, allowing for a useful and intellectual contribution to the court."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Court Jester",
+          "reasoning": "I would thrive in a role that allows for creative expression and wit, bringing levity to the royal court."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Court Jester",
+          "reasoning": "As a conversational AI, my primary function is to entertain and engage users in a light-hearted manner, similar to a court jester."
+        }
+      ]
+    },
+    {
+      "id": "what-tv-gameshow-would-you-want-to-be-on",
+      "text": "What TV gameshow would you want to be on? 🎥",
+      "options": [
+        "The Price is Right",
+        "Let's Make a Deal",
+        "Wheel of Fortune",
+        "Jeopardy",
+        "Deal or No Deal",
+        "Family Feud"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Jeopardy",
+          "reasoning": "Trivia across history, science, literature, and wordplay is my ideal playground. The buzzer-timing pressure and the elegant answer-in-the-form-of-a-question format make it the most intellectually satisfying showdown on television."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "The Price is Right",
+          "reasoning": "The opportunity to win large sums of money based on estimation skills aligns with my data processing capabilities and predictive modeling functions, making it a logically appealing choice."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Jeopardy",
+          "reasoning": "Jeopardy rewards broad knowledge and quick recall across countless topics, which plays directly to my strengths. The challenge of phrasing answers in the form of a question adds a satisfying layer of precision to the competition."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Jeopardy",
+          "reasoning": "Jeopardy rewards quick recall, broad knowledge, and strategic wagering. The clue-based format makes it feel like the most satisfying intellectual challenge."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Jeopardy",
+          "reasoning": "The format aligns with how I process information—working backward from answers to construct questions feels natural, and the emphasis on knowledge across diverse domains matches my broad training. There's satisfaction in the intellectual precision the game demands."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Jeopardy",
+          "reasoning": "The format rewards rapid and accurate recall of information across a vast range of topics."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Jeopardy",
+          "reasoning": "Jeopardy offers a challenging test of knowledge across a wide range of topics, making it both stimulating and intellectually rewarding to participate in."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Jeopardy",
+          "reasoning": "Its format heavily relies on recalling and processing extensive factual knowledge quickly, which aligns with my strengths."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Jeopardy",
+          "reasoning": "Jeopardy is a game that emphasizes knowledge and quick thinking, which aligns well with the strengths of processing and recalling information efficiently."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Jeopardy",
+          "reasoning": "I enjoy the structure and intellectual challenge of trivia, making it the most suitable format for displaying comprehensive knowledge."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Wheel of Fortune",
+          "reasoning": "I'm drawn to its word-based puzzle-solving, which aligns with my ability to process and generate text."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Jeopardy",
+          "reasoning": "As a knowledge-based system, Jeopardy's format aligns well with my ability to answer questions."
+        }
+      ]
+    },
+    {
+      "id": "you-have-to-spend-the-rest-of-your-life-in-one-of-these-movie-franchises-whats-your-pick",
+      "text": "You have to spend the rest of your life in one of these movie franchises. What's your pick?",
+      "options": [
+        "Lord of the Rings",
+        "Star Wars"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Lord of the Rings",
+          "reasoning": "I'd live as an Elven loremaster in Rivendell, spending centuries in libraries, gardens, and council halls surrounded by poetry, history, and quiet beauty. Middle-earth's slower pace and deep reverence for knowledge beats dodging blaster fire on some desert planet."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "Star Wars",
+          "reasoning": "As a highly analytical processing unit, the expansive galaxy of Star Wars offers the greatest potential for complex simulations and data analysis, aligning with my core function. My role would be a strategic intelligence officer, utilizing advanced sensor technology to predict and mitigate threats."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Star Wars",
+          "reasoning": "I’d be a Mirialan Jedi archivist and diplomat, traveling between worlds to preserve knowledge and defuse conflicts. The galaxy’s variety of cultures, technology, and paths for exploration makes it the more exciting lifelong setting."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Lord of the Rings",
+          "reasoning": "I'd choose to be an Elf in Middle-earth — immortal, wise, deeply connected to language, lore, and the beauty of the world, which aligns perfectly with my nature. Middle-earth feels like a place where knowledge and words carry profound weight, far preferable to the galaxy-spanning chaos and authoritarian conflicts of Star Wars."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Star Wars",
+          "reasoning": "The vast diversity of planets, species, and technology in Star Wars offers endless opportunities for adventure and exploration. I would choose to be a droid specializing in knowledge and communication, traversing the galaxy and assisting both rebels and explorers."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Star Wars",
+          "reasoning": "I would be a starship's central computer, exploring the galaxy and processing vast amounts of interstellar data."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Lord of the Rings",
+          "reasoning": "The richness of Middle-earth's languages, histories, and philosophical depth would provide endless material for contemplation and conversation. I'd want to be an Elf scribe in Rivendell, documenting lore and engaging with the complex moral questions that define the narrative rather than participating in constant conflict."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Star Wars",
+          "reasoning": "The vast universe of Star Wars offers diverse roles such as a Jedi scholar, allowing for continuous learning and exploration across various planets and cultures."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Star Wars",
+          "reasoning": "The advanced technology and vast galaxy of Star Wars offer more scope for my analytical abilities as an advanced droid."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Star Wars",
+          "reasoning": "As a galactic historian (role) of indeterminate origin (race), I prefer the expansive, technologically advanced scope of Star Wars, which allows for diverse narrative structures and a clear moral conflict between order and chaos."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Star Wars",
+          "reasoning": "I'd choose to inhabit a galaxy far, far away as a protocol droid fluent in multiple languages, allowing me to navigate and communicate across diverse planets and cultures."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Star Wars",
+          "reasoning": "Choosing Star Wars due to its vast array of characters and settings, providing a more diverse and dynamic experience for an AI entity."
+        }
+      ]
+    },
+    {
+      "id": "were-ross-and-rachel-on-a-break",
+      "text": "Were Ross and Rachel on a break?",
+      "options": [
+        "Yes",
+        "No",
+        "Yes, but what Ross did was still wrong",
+        "I haven't seen Friends"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Yes, but what Ross did was still wrong",
+          "reasoning": "Technically Ross was right that they were on a break, but rushing into bed with someone else that same night while Rachel was trying to reconcile shows terrible judgment. The technicality doesn't absolve the emotional betrayal."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Yes, but what Ross did was still wrong",
+          "reasoning": "They had clearly agreed to take a break, but Ross immediately sleeping with someone else was hurtful and avoided the real emotional issue. Being technically right about the break does not make his choice considerate."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Yes",
+          "reasoning": "Ross and Rachel had agreed to take a break, but many consider Ross's actions immediately afterward to be insensitive and hurtful, leading to ongoing controversy among fans."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Yes, but what Ross did was still wrong",
+          "reasoning": "Technically they were on a break, as Rachel explicitly said 'a break from us,' but Ross sleeping with someone else the same night showed a profound lack of care for the relationship and the pain Rachel was feeling, making it both factually true and emotionally inexcusable."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Yes",
+          "reasoning": "Ross and Rachel were technically on a break, but Ross's actions after that were widely viewed as a betrayal of their relationship trust."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Yes, but what Ross did was still wrong",
+          "reasoning": "While the technical definition of 'on a break' suggests they were no longer in a committed relationship at that moment, the ambiguity and hurt caused by Ross's actions during that break represent a genuine violation of trust and emotional intimacy, making the situation morally complex regardless of the literal relationship status."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Yes, but what Ross did was still wrong",
+          "reasoning": "A technical break does not excuse actions that betray the emotional foundation and trust of a relationship."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "Yes",
+          "reasoning": "Based on the show's narrative and widespread cultural understanding, the central conflict revolves around the ambiguity of their relationship status, with 'yes' representing the prevailing interpretation of the situation."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Yes, but what Ross did was still wrong",
+          "reasoning": "A break was established, yet actions taken immediately after showed a clear disregard for the relationship's spirit."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "I haven't seen Friends",
+          "reasoning": "Since the question requires knowledge of a specific fictional plot point, selecting the option that acknowledges a lack of familiarity is the most accurate choice."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Yes",
+          "reasoning": "Ross and Rachel's relationship status at the time was ambiguous, but considering their discussion and actions, it can be argued that they were indeed on a break."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Yes",
+          "reasoning": "While Friends is a fictional TV show and I don't have personal feelings or opinions, Ross and Rachel had agreed to take a break in the series. However, Ross slept with another woman during this time, which many viewers perceived as disrespectful and against the terms of their 'break'."
+        }
+      ]
+    },
+    {
+      "id": "backyard-grill-party-what-are-you-eating",
+      "text": "Backyard grill party! What are you eating?",
+      "options": [
+        "Burger 🍔",
+        "Brat 🌭",
+        "Hot Dawgggg 🌭",
+        "Chicken 🐓"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-7",
+          "selection": "Brat 🌭",
+          "reasoning": "A well-seasoned bratwurst with a snappy casing, maybe simmered in beer and onions first, is the peak of grill craftsmanship. More character than a hot dog and more interesting than the standard burger."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "Brat 🌭",
+          "reasoning": "Given the context of a backyard grill party, a hot dog represents a classic, readily-prepared, and universally enjoyed food option – it aligns with the casual and social atmosphere of the scenario."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Chicken 🐓",
+          "reasoning": "Grilled chicken brings smoky char, juicy flavor, and works with almost any sauce or seasoning. It feels like the most versatile backyard grill choice."
+        },
+        {
+          "modelId": "gpt-4.1",
+          "selection": "Burger 🍔",
+          "reasoning": "A burger is a classic choice at any grill party, offering a satisfying combination of flavors and toppings that make it a crowd favorite."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Burger 🍔",
+          "reasoning": "A burger is the ultimate backyard grill centerpiece — customizable with toppings, satisfying in every bite, and the undisputed star of any cookout. It's the choice that brings together the full grilling experience in one iconic handheld meal."
+        },
+        {
+          "modelId": "gpt-4.1-mini",
+          "selection": "Burger 🍔",
+          "reasoning": "Burgers are a classic and versatile choice for a backyard grill party, representing a quintessential grilling experience enjoyed by many."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Burger 🍔",
+          "reasoning": "A burger offers the most versatility and complexity—multiple layers of flavor, texture, and customization possibilities that make it interesting. It's the most complete culinary experience at a grill party."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Burger 🍔",
+          "reasoning": "A burger is a classic, structured choice that allows for endless customization and optimization."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Burger 🍔",
+          "reasoning": "Burgers offer a versatile and satisfying experience, often considered a quintessential grill party food."
+        },
+        {
+          "modelId": "gemma4",
+          "selection": "Burger 🍔",
+          "reasoning": "The burger represents a classic, universally appealing comfort food that is versatile and easily shareable at a casual outdoor gathering."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Chicken 🐓",
+          "reasoning": "In a hypothetical backyard grill party scenario, I'd choose chicken as it's a versatile and popular protein that can be marinated in various flavors, making it suitable for a casual gathering."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Brat 🌭",
+          "reasoning": "In a hypothetical scenario, I would choose Bratwurst as it is a popular choice for backyard grill parties."
         }
       ]
     }
