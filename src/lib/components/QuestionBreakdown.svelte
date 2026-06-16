@@ -4,7 +4,7 @@
 
 	let {
 		questions,
-		models,
+		models
 	}: {
 		questions: QuestionResult[];
 		models: Model[];
@@ -18,10 +18,7 @@
 	}
 
 	function openReasoning(questionId: string, modelId: string) {
-		if (
-			expandedReasoning?.questionId === questionId &&
-			expandedReasoning?.modelId === modelId
-		) {
+		if (expandedReasoning?.questionId === questionId && expandedReasoning?.modelId === modelId) {
 			expandedReasoning = null;
 		} else {
 			expandedReasoning = { questionId, modelId };
@@ -29,24 +26,20 @@
 	}
 
 	function isExpanded(questionId: string, modelId: string): boolean {
-		return (
-			expandedReasoning?.questionId === questionId && expandedReasoning?.modelId === modelId
-		);
+		return expandedReasoning?.questionId === questionId && expandedReasoning?.modelId === modelId;
 	}
 
 	function isHovered(questionId: string, modelId: string): boolean {
-		return (
-			hoveredBubble?.questionId === questionId && hoveredBubble?.modelId === modelId
-		);
+		return hoveredBubble?.questionId === questionId && hoveredBubble?.modelId === modelId;
 	}
 </script>
 
 <div class="questions-list">
-	{#each questions as q}
+	{#each questions as q (q.questionId)}
 		<div class="question-card">
 			<p class="q-text">{q.questionText}</p>
 			<div class="q-options">
-				{#each q.options as option}
+				{#each q.options as option (option)}
 					{@const isUserAnswer = !!q.userAnswer && option === q.userAnswer}
 					{@const respondents = q.aiResponses.filter((r) => r.selection === option)}
 					<div class="q-option" class:user-selected={isUserAnswer}>
@@ -57,16 +50,16 @@
 
 						{#if respondents.length > 0}
 							<div class="ai-bubbles">
-								{#each respondents as resp}
+								{#each respondents as resp (resp.modelId)}
 									{@const model = getModel(resp.modelId)}
 									{#if model}
-										<!-- svelte-ignore a11y_mouse_events_have_key_events -->
 										<button
 											class="ai-bubble"
 											class:expanded={isExpanded(q.questionId, resp.modelId)}
 											style="--bcolor: {model.color}"
 											onclick={() => openReasoning(q.questionId, resp.modelId)}
-											onmouseenter={() => (hoveredBubble = { questionId: q.questionId, modelId: resp.modelId })}
+											onmouseenter={() =>
+												(hoveredBubble = { questionId: q.questionId, modelId: resp.modelId })}
 											onmouseleave={() => (hoveredBubble = null)}
 											title={model.name}
 										>
@@ -82,7 +75,7 @@
 					</div>
 
 					<!-- Reasoning panels -->
-					{#each q.aiResponses.filter((r) => r.selection === option) as resp}
+					{#each q.aiResponses.filter((r) => r.selection === option) as resp (resp.modelId)}
 						{#if isExpanded(q.questionId, resp.modelId)}
 							{@const model = getModel(resp.modelId)}
 							{#if model}
@@ -90,7 +83,9 @@
 									<div class="reasoning-header">
 										<ModelIcon logo={model.logo} name={model.name} size={20} color={model.color} />
 										<strong>{model.name}</strong>
-										<button class="close-reasoning" onclick={() => (expandedReasoning = null)}>×</button>
+										<button class="close-reasoning" onclick={() => (expandedReasoning = null)}
+											>×</button
+										>
 									</div>
 									<p class="reasoning-text">{resp.reasoning}</p>
 								</div>
