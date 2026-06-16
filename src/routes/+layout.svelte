@@ -71,8 +71,8 @@
 		display: flex;
 		flex-direction: column;
 		background:
-			radial-gradient(ellipse 55% 45% at 85% 5%, rgba(251, 146, 60, 0.18) 0%, transparent 60%),
-			radial-gradient(ellipse 50% 40% at 15% 95%, rgba(167, 139, 250, 0.14) 0%, transparent 60%),
+			radial-gradient(ellipse 55% 45% at 85% 5%, rgba(251, 146, 60, 0.18) 0%, transparent 60%) fixed,
+			radial-gradient(ellipse 50% 40% at 15% 95%, rgba(167, 139, 250, 0.14) 0%, transparent 60%) fixed,
 			var(--bg);
 	}
 

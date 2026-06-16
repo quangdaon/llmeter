@@ -6,6 +6,7 @@
 	import ModelIcon from '$lib/components/ModelIcon.svelte';
 	import QuestionBreakdown from '$lib/components/QuestionBreakdown.svelte';
 	import type { EvaluateResponse, Model, ModelMatch } from '$lib/types';
+	import { getLabel } from '$lib/labels';
 
 	let result = $state<EvaluateResponse | null>(null);
 	let models = $state<Model[]>([]);
@@ -32,15 +33,14 @@
 	});
 
 	function shareText(url = shareUrl) {
-		return result
-			? `I scored ${result.aiPercentage}% AI on LLMeter ("${result.aiLabel}"). How human are you? ${url}`
-			: '';
+		if (!result) return '';
+		const msg = getLabel(result.aiPercentage).socialText(result.aiPercentage);
+		return `${msg} ${url}`;
 	}
 
 	function twitterUrl() {
-		const text = result
-			? `I scored ${result.aiPercentage}% AI on LLMeter ("${result.aiLabel}"). How human are you?`
-			: '';
+		if (!result) return '';
+		const text = getLabel(result.aiPercentage).socialText(result.aiPercentage);
 		return `https://x.com/intent/tweet?text=${encodeURIComponent(text)}&url=${encodeURIComponent(shareUrl)}`;
 	}
 
@@ -109,6 +109,8 @@
 					<span class="verdict-emoji">{result.aiLabelEmoji}</span>
 					<span class="verdict-text">{result.aiLabel}</span>
 				</div>
+
+				<p class="verdict-summary">{getLabel(result.aiPercentage).summary}</p>
 
 				{#if result.disputeBonus}
 					<div class="dispute-note">
@@ -316,6 +318,14 @@
 
 	.verdict-emoji {
 		font-size: 1.2rem;
+	}
+
+	.verdict-summary {
+		max-width: 480px;
+		margin: 1rem auto 0;
+		font-size: 0.92rem;
+		color: var(--text-dim);
+		line-height: 1.6;
 	}
 
 	.dispute-note {

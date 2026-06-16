@@ -1,20 +1,5 @@
 import type { Question, QuizAnswer, ModelMatch, EvaluateResponse, QuestionResult } from '$lib/types.js';
-
-const AI_LABELS: Array<{ threshold: number; label: string; emoji: string }> = [
-  { threshold: 85, label: 'Full AI Mode', emoji: '🤖' },
-  { threshold: 70, label: 'Mostly Machine', emoji: '🦾' },
-  { threshold: 55, label: 'Suspiciously Robotic', emoji: '🔌' },
-  { threshold: 40, label: 'Suspiciously Balanced', emoji: '⚖️' },
-  { threshold: 25, label: 'More Human Than Not', emoji: '🧑' },
-  { threshold: 0, label: 'Proudly Human', emoji: '❤️' },
-];
-
-function getLabel(pct: number): { label: string; emoji: string } {
-  for (const tier of AI_LABELS) {
-    if (pct >= tier.threshold) return { label: tier.label, emoji: tier.emoji };
-  }
-  return { label: 'Proudly Human', emoji: '❤️' };
-}
+import { getLabel } from '$lib/labels.js';
 
 /**
  * Scoring algorithm:

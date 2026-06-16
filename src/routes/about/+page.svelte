@@ -25,7 +25,7 @@
 		<section class="section">
 			<h2>The AI lineup</h2>
 			<p>
-				We asked eleven AI models the same questions you're about to answer. Here's who showed up:
+				We asked twelve AI models the same questions you're about to answer. Here's who showed up:
 			</p>
 
 			<div class="model-groups">
@@ -33,6 +33,7 @@
 					<div class="maker-label">Google</div>
 					<ul class="model-list">
 						<li><strong>Gemma 3</strong> — an open-source model from Google, running on local hardware</li>
+						<li><strong>Gemma 4</strong> — Google's latest open-source model, running on local hardware</li>
 						<li><strong>Gemini 2.5 Pro</strong> — Google's most capable cloud model</li>
 						<li><strong>Gemini 2.5 Flash</strong> — Google's faster, lighter cloud model</li>
 					</ul>
@@ -90,8 +91,8 @@
 		<section class="section">
 			<h2>How the score works</h2>
 			<p>
-				For each question, we look at how many of the eleven models chose the same option you did.
-				If eight out of eleven agreed with you, that question pushes your score up. If only one did,
+				For each question, we look at how many of the twelve models chose the same option you did.
+				If eight out of twelve agreed with you, that question pushes your score up. If only one did,
 				it barely moves the needle.
 			</p>
 			<p>
@@ -115,7 +116,7 @@
 				certain things. It's pattern-matching at a massive scale, not genuine preference.
 			</p>
 			<p>
-				That said, it's still genuinely interesting when eleven different models from five different
+				That said, it's still genuinely interesting when twelve different models from five different
 				companies mostly agree on something. Draw your own conclusions.
 			</p>
 		</section>
