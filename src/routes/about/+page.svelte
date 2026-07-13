@@ -14,7 +14,7 @@
 			<p>
 				LLMeter asks you a series of questions — the kind with no right answer, just preference.
 				Do you prefer the top bunk or the bottom? Bars of soap or liquid? Then it compares your
-				choices to those of ten leading AI models and calculates how "AI-brained" you are.
+				choices to those of leading AI models and calculates how "AI-brained" you are.
 			</p>
 			<p>
 				It won't tell you anything definitive about your personality. But it might make you think
@@ -25,7 +25,7 @@
 		<section class="section">
 			<h2>The AI lineup</h2>
 			<p>
-				We asked twelve AI models the same questions you're about to answer. Here's who showed up:
+				We asked ten AI models the same questions you're about to answer. Here's who showed up:
 			</p>
 
 			<div class="model-groups">
@@ -33,7 +33,6 @@
 					<div class="maker-label">Google</div>
 					<ul class="model-list">
 						<li><strong>Gemma 3</strong> — an open-source model from Google, running on local hardware</li>
-						<li><strong>Gemma 4</strong> — Google's latest open-source model, running on local hardware</li>
 						<li><strong>Gemini 2.5 Pro</strong> — Google's most capable cloud model</li>
 						<li><strong>Gemini 2.5 Flash</strong> — Google's faster, lighter cloud model</li>
 					</ul>
@@ -42,7 +41,7 @@
 				<div class="model-group">
 					<div class="maker-label">Meta</div>
 					<ul class="model-list">
-						<li><strong>Llama 3.1</strong> — Meta's open-source model, also running on local hardware</li>
+						<li><strong>Llama 3.1</strong> — Meta's open-source model, running on local hardware</li>
 					</ul>
 				</div>
 
@@ -57,20 +56,24 @@
 					<div class="maker-label">OpenAI</div>
 					<ul class="model-list">
 						<li><strong>GPT-5.5</strong> — OpenAI's latest flagship model</li>
-						<li><strong>GPT-4.1</strong> — a capable all-rounder from OpenAI</li>
-						<li><strong>GPT-4.1 Mini</strong> — OpenAI's smaller, snappier model</li>
+						<li><strong>GPT-5.4 Mini</strong> — OpenAI's smaller, snappier model</li>
 					</ul>
 				</div>
 
 				<div class="model-group">
 					<div class="maker-label">Anthropic</div>
 					<ul class="model-list">
-						<li><strong>Claude Opus 4.7</strong> — Anthropic's most powerful model</li>
+						<li><strong>Claude Opus 4.8</strong> — Anthropic's most powerful model</li>
 						<li><strong>Claude Sonnet 4.6</strong> — Anthropic's balanced workhorse</li>
 						<li><strong>Claude Haiku 4.5</strong> — Anthropic's fast, lightweight model</li>
 					</ul>
 				</div>
 			</div>
+
+			<p class="version-note">
+				Some questions are answered by an earlier version of certain models — the model family
+				is the same, only the specific release differs. You may see both in the results breakdown.
+			</p>
 		</section>
 
 		<section class="section">
@@ -91,8 +94,8 @@
 		<section class="section">
 			<h2>How the score works</h2>
 			<p>
-				For each question, we look at how many of the twelve models chose the same option you did.
-				If eight out of twelve agreed with you, that question pushes your score up. If only one did,
+				For each question, we look at how many models chose the same option you did. The more
+				that agreed with you, the more that question pushes your score up. If only one did,
 				it barely moves the needle.
 			</p>
 			<p>
@@ -116,8 +119,8 @@
 				certain things. It's pattern-matching at a massive scale, not genuine preference.
 			</p>
 			<p>
-				That said, it's still genuinely interesting when twelve different models from five different
-				companies mostly agree on something. Draw your own conclusions.
+				That said, it's still genuinely interesting when models from five different companies mostly
+				agree on something. Draw your own conclusions.
 			</p>
 		</section>
 
@@ -231,6 +234,14 @@
 
 	.model-list strong {
 		color: var(--text);
+	}
+
+	.version-note {
+		font-size: 0.875rem;
+		color: var(--muted);
+		font-style: italic;
+		margin-top: 1rem;
+		line-height: 1.6;
 	}
 
 	.cta-row {

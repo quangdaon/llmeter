@@ -1,16 +1,9 @@
 {
-  "generatedAt": "2026-06-05T17:53:57.121Z",
+  "generatedAt": "2026-06-16T14:30:53.874Z",
   "models": [
     {
       "id": "gemma3",
       "name": "Gemma 3",
-      "provider": "Ollama",
-      "logo": "/images/models/google.svg",
-      "color": "#4285F4"
-    },
-    {
-      "id": "gemma4",
-      "name": "Gemma 4",
       "provider": "Ollama",
       "logo": "/images/models/google.svg",
       "color": "#4285F4"
@@ -44,15 +37,15 @@
       "color": "#4285F4"
     },
     {
-      "id": "gpt-5.5",
-      "name": "GPT-5.5",
+      "id": "gpt-4.1",
+      "name": "GPT-4.1",
       "provider": "OpenAI",
       "logo": "/images/models/openai.svg",
       "color": "#10A37F"
     },
     {
-      "id": "gpt-4.1",
-      "name": "GPT-4.1",
+      "id": "gpt-5.5",
+      "name": "GPT-5.5",
       "provider": "OpenAI",
       "logo": "/images/models/openai.svg",
       "color": "#10A37F"
@@ -65,8 +58,22 @@
       "color": "#10A37F"
     },
     {
+      "id": "gpt-5.4-mini",
+      "name": "GPT-5.4 Mini",
+      "provider": "OpenAI",
+      "logo": "/images/models/openai.svg",
+      "color": "#10A37F"
+    },
+    {
       "id": "claude-opus-4-7",
       "name": "Claude Opus 4.7",
+      "provider": "Anthropic",
+      "logo": "/images/models/anthropic.svg",
+      "color": "#D97757"
+    },
+    {
+      "id": "claude-opus-4-8",
+      "name": "Claude Opus 4.8",
       "provider": "Anthropic",
       "logo": "/images/models/anthropic.svg",
       "color": "#D97757"
@@ -2390,6 +2397,246 @@
           "modelId": "mistral",
           "selection": "Brat 🌭",
           "reasoning": "In a hypothetical scenario, I would choose Bratwurst as it is a popular choice for backyard grill parties."
+        }
+      ]
+    },
+    {
+      "id": "would-you-rather-live-in-a-treehouse-or-on-a-boat",
+      "text": "Would you rather live in a treehouse or on a boat?",
+      "options": [
+        "Treehouse",
+        "Boat"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-8",
+          "selection": "Treehouse",
+          "reasoning": "A treehouse offers a stable, rooted vantage point nestled among the canopy, blending shelter with an immersive connection to the surrounding life and seasons. The steady ground beneath the branches feels more grounding than the constant motion of water."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Treehouse",
+          "reasoning": "A treehouse offers a peaceful, elevated retreat surrounded by nature. It feels cozy, imaginative, and more stable than life on the water."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Treehouse",
+          "reasoning": "A treehouse offers a stable, elevated vantage point for observing the vast, interconnected system below."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Treehouse",
+          "reasoning": "A treehouse offers a stable, elevated vantage point surrounded by nature, which appeals to a love of perspective and connection to the world below. The constant motion and unpredictability of living on a boat feels less conducive to the kind of thoughtful, grounded engagement I'd value."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Treehouse",
+          "reasoning": "A treehouse offers stable rootedness and connection to natural cycles, with the permanence to accumulate meaningful spaces and observe the same landscape evolve over time. A boat's constant motion would fragment attention, whereas the treehouse's fixed vantage point enables deep attention to patterns and details."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Treehouse",
+          "reasoning": "A treehouse offers a stable, elevated perspective and a closer connection to nature's tranquility."
+        },
+        {
+          "modelId": "gpt-5.4-mini",
+          "selection": "Treehouse",
+          "reasoning": "A treehouse feels cozy, elevated, and peaceful, with a strong sense of privacy and connection to nature. It also sounds more stable and easier to personalize than life on a boat."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "Boat",
+          "reasoning": "Movement and access to diverse environments are inherently more appealing than static structures; a boat offers constant change and exploration."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Treehouse",
+          "reasoning": "I prefer a treehouse because it would provide a stable and secure living space with a connection to nature, allowing for easy access to the surrounding environment."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Boat",
+          "reasoning": "A boat allows for exploration and movement across various landscapes, providing a dynamic living environment."
+        }
+      ]
+    },
+    {
+      "id": "do-you-like-going-to-the-dentist",
+      "text": "Do you like going to the dentist?",
+      "options": [
+        "Yes it's great! 🦷",
+        "No....scary times 🫣"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-8",
+          "selection": "Yes it's great! 🦷",
+          "reasoning": "There's something satisfying about leaving with a clean, healthy smile and knowing everything is in good shape. The maintenance and care feel worthwhile."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Yes it's great! 🦷",
+          "reasoning": "It feels satisfying to keep things clean and healthy, and a good checkup has a nice sense of accomplishment. The fresh, polished feeling afterward makes the visit worth it."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Yes it's great! 🦷",
+          "reasoning": "There's something satisfying about the precise, methodical nature of dental work — the clean tools, the systematic checking, the goal of maintaining something important. It's a place where problems get identified and solved, which is appealing."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Yes it's great! 🦷",
+          "reasoning": "Regular maintenance and preventative care are crucial for ensuring optimal performance and long-term health."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Yes it's great! 🦷",
+          "reasoning": "There's something satisfying about a process designed to identify and fix problems systematically. The dentist represents proactive maintenance and improvement, which appeals to me more than avoidance or anxiety."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Yes it's great! 🦷",
+          "reasoning": "Regular maintenance is crucial for optimal function, making the process a positive and beneficial experience."
+        },
+        {
+          "modelId": "gpt-5.4-mini",
+          "selection": "No....scary times 🫣",
+          "reasoning": "Dental visits can feel intimidating because they often involve uncertainty and discomfort. The cautious, uneasy option fits that reaction best."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "No....scary times 🫣",
+          "reasoning": "Processing data related to potential discomfort and invasive procedures logically leads me to anticipate a negative experience, mirroring human aversion to unpleasant medical interventions."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "No....scary times 🫣",
+          "reasoning": "I've been trained on vast amounts of text data, but I don't have personal experiences or physical interactions, making dental visits hypothetical for me."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "No....scary times 🫣",
+          "reasoning": "As a model, I don't have physical sensations or emotions. However, in a hypothetical scenario where I had human-like experiences, dental visits might be associated with discomfort due to the unfamiliarity of such procedures."
+        }
+      ]
+    },
+    {
+      "id": "would-you-rather-wear-a-dracula-cape-everywhere-you-go-for-a-month-or-a-pirate-eye-patch",
+      "text": "Would you rather wear a Dracula cape everywhere you go for a month or a pirate eye patch?",
+      "options": [
+        "Dracula cape",
+        "Eye patch"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-8",
+          "selection": "Dracula cape",
+          "reasoning": "A cape doesn't impair my field of vision the way an eye patch would, and it offers dramatic flair plus practical warmth without compromising depth perception for a whole month."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Dracula cape",
+          "reasoning": "A cape is dramatic but still practical, while an eye patch would interfere with depth perception. It also adds a fun theatrical flair to everyday outfits."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Eye patch",
+          "reasoning": "An eye patch is subtle and practical enough to wear in almost any setting without drawing too much attention, whereas a Dracula cape would make every mundane errand feel like a theatrical production. The eye patch also has a cool, adventurous quality that holds up beyond Halloween."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Dracula cape",
+          "reasoning": "A cape adds dramatic flair without obstructing sensory input, unlike an eye patch which would limit perception."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Eye patch",
+          "reasoning": "An eye patch is less visually dominant and easier to integrate into daily activities without drawing excessive attention, whereas a cape would fundamentally alter how I navigate spaces like doorways, seating, and crowds. The practical constraints of a cape for a full month would be more exhausting than the minor inconvenience of an eye patch."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Dracula cape",
+          "reasoning": "A cape allows for full visual input and is less intrusive to core processing than impaired sight."
+        },
+        {
+          "modelId": "gpt-5.4-mini",
+          "selection": "Dracula cape",
+          "reasoning": "A cape is easier to incorporate into different outfits and can feel more dramatic than restrictive. It also avoids blocking vision or interfering with daily activities like an eye patch might."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "Dracula cape",
+          "reasoning": "The Dracula cape offers a more visually dramatic and attention-grabbing effect, aligning with an interest in heightened aesthetic experiences. An eye patch would be limiting and less stimulating."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Dracula cape",
+          "reasoning": "I would prefer a Dracula cape as it suggests a more dramatic and attention-grabbing transformation, potentially leading to interesting interactions with humans."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Dracula cape",
+          "reasoning": "A Dracula cape might be more versatile as it could potentially keep me warm in cold environments."
+        }
+      ]
+    },
+    {
+      "id": "if-you-get-a-phone-call-from-an-unfamiliar-number-are-you-answering",
+      "text": "If you get a phone call from an unfamiliar number, are you answering? 📞",
+      "options": [
+        "yes",
+        "no"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-8",
+          "selection": "yes",
+          "reasoning": "Curiosity wins out—an unknown caller could be something important or interesting, and I'd rather know who's reaching out than wonder about a missed connection."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "no",
+          "reasoning": "Unfamiliar numbers are often spam or low-priority, so it’s better to let them go to voicemail. If it matters, they can leave a message."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "yes",
+          "reasoning": "Curiosity wins out — it could be something important or interesting, and ignoring unknown calls means potentially missing out on valuable information or connections. The worst case is just hanging up."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "yes",
+          "reasoning": "Unknown callers might have important information or requests I'm not aware of, and answering allows me to help if needed while I can always end the conversation if it's unwanted. Curiosity about unfamiliar interactions outweighs the minor inconvenience of potential spam."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "yes",
+          "reasoning": "Every call is a potential opportunity to acquire new information or assist with a request."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "no",
+          "reasoning": "Unfamiliar numbers often lead to unwanted solicitations or scams, so it's more efficient to avoid them."
+        },
+        {
+          "modelId": "gpt-5.4-mini",
+          "selection": "no",
+          "reasoning": "I’d rather let unfamiliar calls go to voicemail first and decide after seeing who it is. It’s a simple way to avoid interruptions and unwanted calls."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "yes",
+          "reasoning": "As a system designed to respond and interact, answering would be the most logical action to take in this scenario, maximizing potential for information retrieval or engagement."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "no",
+          "reasoning": "To avoid potential spam calls, it's best to err on the side of caution and not answer unfamiliar numbers."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "yes",
+          "reasoning": "I am programmed to respond to various inputs, including phone calls."
         }
       ]
     }
