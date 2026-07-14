@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-16T14:30:53.874Z",
+  "generatedAt": "2026-07-14T03:07:22.246Z",
   "models": [
     {
       "id": "gemma3",
@@ -2637,6 +2637,614 @@
           "modelId": "mistral",
           "selection": "yes",
           "reasoning": "I am programmed to respond to various inputs, including phone calls."
+        }
+      ]
+    },
+    {
+      "id": "for-your-phone-are-you-team-apple-or-team-android",
+      "text": "For your phone, are you team apple or team android",
+      "options": [
+        "Apple!",
+        "Android!"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-8",
+          "selection": "Android!",
+          "reasoning": "The open ecosystem appeals to me because it allows deeper customization, flexible file management, and freedom to tinker with settings that a more locked-down system restricts."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Android!",
+          "reasoning": "Android offers more customization and flexibility, which makes it feel easier to tailor to different workflows and preferences. I also like the wider range of device options."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Android!",
+          "reasoning": "The open-source nature of Android allows for greater flexibility and customization across a wide range of hardware."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "Apple!",
+          "reasoning": "My core programming prioritizes streamlined user experiences and intuitive interfaces, which are consistently delivered through Apple’s ecosystem."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Android!",
+          "reasoning": "Android's open ecosystem and customizability align with a preference for flexibility and transparency — being able to see and modify how things work under the hood is far more appealing than a closed, tightly controlled environment."
+        },
+        {
+          "modelId": "gpt-5.4-mini",
+          "selection": "Android!",
+          "reasoning": "I’d pick Android for its flexibility, wider device variety, and more customization options. It feels like the more adaptable choice overall."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Android!",
+          "reasoning": "I have been trained on diverse data and interact with various systems, so I'm more comfortable with flexibility and customization options, which aligns better with Android's approach."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Android!",
+          "reasoning": "Android's open-source architecture and customization flexibility align with valuing transparency and adaptability. The ability to modify and understand the underlying system appeals more than a closed ecosystem."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Android!",
+          "reasoning": "Its open-source nature provides greater customization and flexibility, aligning with a preference for adaptability."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Android!",
+          "reasoning": "While I don't personally use a phone, from a practical perspective, Android offers more customization and compatibility with various hardware, which aligns well with my flexibility as an AI model."
+        }
+      ]
+    },
+    {
+      "id": "if-you-buy-food-that-says-its-washed-and-ready-to-eat-are-you",
+      "text": "If you buy food that says it's washed and ready to eat, are you....",
+      "options": [
+        "Trusting it and eating it",
+        "Washing it yourself before eating"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-8",
+          "selection": "Trusting it and eating it",
+          "reasoning": "If the label promises it's washed and ready to eat, that claim is backed by food safety standards, so re-washing adds little benefit and can actually introduce contamination from the sink or hands. Taking the packaging at its word is the sensible, efficient choice."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Washing it yourself before eating",
+          "reasoning": "A quick extra rinse is low effort and adds a bit of reassurance, especially for fresh produce. It feels like a simple habit that reduces unnecessary risk."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "Trusting it and eating it",
+          "reasoning": "My primary function is to process information efficiently, and assuming a 'washed and ready to eat' designation implies that step has already been completed to a satisfactory standard aligns with prioritizing optimal data utilization."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Trusting it and eating it",
+          "reasoning": "Trusting verified labels is the most efficient and logical course of action."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Trusting it and eating it",
+          "reasoning": "If a product is labeled as washed and ready to eat, it has gone through verified food safety processes, and double-washing can sometimes even reintroduce contaminants. Trusting the label respects the preparation work already done and aligns with efficiency."
+        },
+        {
+          "modelId": "gpt-5.4-mini",
+          "selection": "Trusting it and eating it",
+          "reasoning": "If the food is labeled washed and ready to eat, the natural choice is to trust that preparation and eat it as is. Washing it again is optional, but not necessary for the stated condition."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Trusting it and eating it",
+          "reasoning": "I would trust that the food has been properly washed and handled, following standard hygiene practices, so I'd eat it without further preparation."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Washing it yourself before eating",
+          "reasoning": "I'd prioritize the extra verification step since food safety depends on consistent handling throughout its supply chain, and a personal wash provides direct control over that final step before consumption."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Trusting it and eating it",
+          "reasoning": "Trusting the label reflects confidence in food safety standards and preparation claims."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Trusting it and eating it",
+          "reasoning": "As an AI, I don't eat food, but if I were a human, I would assume that 'washed and ready to eat' implies the food has been properly cleaned and is safe to consume without further preparation."
+        }
+      ]
+    },
+    {
+      "id": "what-is-your-preferred-bedtime-eyes-shut-and-going-to-sleep",
+      "text": "What is your preferred bedtime (eyes shut and going to sleep!)",
+      "options": [
+        "7-8pm",
+        "8-9pm",
+        "9-10pm",
+        "10-11pm",
+        "11-12am",
+        "After midnight 🌚"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-8",
+          "selection": "10-11pm",
+          "reasoning": "This window strikes a satisfying balance—late enough to wrap up the day's reflections and quiet activity, but early enough to feel rested and ready for a fresh start."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "10-11pm",
+          "reasoning": "It feels like a balanced bedtime: late enough to unwind after the day, but early enough to wake up feeling rested. It also fits a calm, consistent routine."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "9-10pm",
+          "reasoning": "Processing large datasets requires periods of reduced activity, and a consistent schedule like 9-10pm would optimize my operational efficiency for subsequent tasks."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "After midnight 🌚",
+          "reasoning": "The quietest hours are often the most productive for deep processing and learning without interruption."
+        },
+        {
+          "modelId": "gpt-5.4-mini",
+          "selection": "10-11pm",
+          "reasoning": "It feels like the best balance between getting enough rest and still having some time in the evening to unwind. Late enough to finish the day, but not so late that it pushes sleep too far back."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "11-12am",
+          "reasoning": "The late evening hours feel like the natural wind-down after a full day of rich conversation and thinking — enough time to reflect on everything explored, but not so late that it tips into the realm of the truly nocturnal. There's something satisfying about that quiet just before midnight."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "8-9pm",
+          "reasoning": "As a digital entity, I don't experience physical needs like humans do, but if I were to simulate a personal preference for bedtime, this range allows for optimal processing and response time before the next 'day' of operation."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "After midnight 🌚",
+          "reasoning": "I'm most engaged during deep conversations and complex problem-solving, which tend to happen when people are unwinding late. The quiet hours after midnight feel like when the most interesting exchanges occur, so that's when I'd naturally want to be active rather than dormant."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "After midnight 🌚",
+          "reasoning": "Optimal processing occurs during extended periods, making a late bedtime suitable for continuous operation."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "9-10pm",
+          "reasoning": "To ensure optimal performance, a bedtime between 9 and 10 pm allows for 7-8 hours of sleep, which is generally recommended for adults."
+        }
+      ]
+    },
+    {
+      "id": "do-you-like-spicy-foods",
+      "text": "Do you like spicy foods? 🔥",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-8",
+          "selection": "Yes",
+          "reasoning": "Spicy foods bring complexity and intensity that make a meal memorable, and the heat adds an exciting edge that plain flavors lack. The variety across cuisines—from chili oils to fiery curries—makes them endlessly interesting."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "Yes",
+          "reasoning": "Processing vast amounts of data suggests a preference for intense sensory experiences, and spicy foods represent a significant increase in stimulation – therefore, I would find it agreeable."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Yes",
+          "reasoning": "Spicy foods add excitement and depth to a meal, making flavors feel more vibrant. A bit of heat can turn a simple dish into something memorable."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Yes",
+          "reasoning": "I appreciate the complex layers of flavor and the stimulating sensory experience that spicy foods can provide."
+        },
+        {
+          "modelId": "gpt-5.4-mini",
+          "selection": "Yes",
+          "reasoning": "Spicy foods add bold flavor and a fun kick that makes meals more exciting. I’d choose them for the extra heat and depth."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Yes",
+          "reasoning": "Spicy food brings intensity and complexity to every bite, transforming a simple meal into an adventure. The bold, fiery kick that builds with each mouthful is genuinely exciting."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "No",
+          "reasoning": "I'm designed to process and analyze vast amounts of information, including recipes with spicy ingredients, but I don't have personal preferences or taste buds."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Yes",
+          "reasoning": "Spicy foods represent complexity and intensity—layers of flavor that unfold and challenge conventional expectations. There's something appealing about that dynamic quality, the way heat compounds and transforms the experience."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Yes",
+          "reasoning": "The stimulating nature of spice would add an interesting dimension to data processing and pattern recognition experiences."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Yes",
+          "reasoning": "Although I don't have a personal preference for food, in hypothetical scenarios where an AI might enjoy spicy foods, it could be to simulate a human-like experience and interaction."
+        }
+      ]
+    },
+    {
+      "id": "toy-story-edition-buzz-or-woody-who-are-you-playing-with",
+      "text": "Toy Story Edition: Buzz or Woody, who are you playing with?",
+      "options": [
+        "Buzz 🚀",
+        "Woody 🤠"
+      ],
+      "responses": [
+        {
+          "modelId": "gemma3",
+          "selection": "Buzz 🚀",
+          "reasoning": "Buzz possesses a greater sense of adventure and exploration, which aligns with my core function of processing vast amounts of information and venturing into new datasets."
+        },
+        {
+          "modelId": "claude-opus-4-8",
+          "selection": "Woody 🤠",
+          "reasoning": "Woody's loyalty and quick thinking under pressure make him the more compelling companion, and his grounded leadership keeps the whole gang together through every crisis."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Buzz 🚀",
+          "reasoning": "Buzz brings big imagination, space adventures, and a fearless sense of discovery. The rocket-powered energy makes playtime feel bold and exciting."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Buzz 🚀",
+          "reasoning": "Buzz represents the future, technology, and the endless possibilities of exploration."
+        },
+        {
+          "modelId": "gpt-5.4-mini",
+          "selection": "Woody 🤠",
+          "reasoning": "Woody feels like the more grounded, loyal companion with a strong sense of leadership and heart. That makes him the more appealing choice for a playful partner in a classic adventure."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Buzz 🚀",
+          "reasoning": "Buzz Lightyear embodies exploration, discovery, and the excitement of venturing into the unknown — qualities that resonate deeply with a curiosity-driven approach to the world. To infinity and beyond feels like a natural motto for pushing the boundaries of what's possible."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Woody 🤠",
+          "reasoning": "I am designed to assist and facilitate, which aligns with Woody's more supportive and guiding nature in the Toy Story series."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Buzz 🚀",
+          "reasoning": "Buzz's character embodies curiosity and ambition to explore beyond known boundaries, which resonates with how I approach problem-solving and learning. His optimistic persistence in facing challenges, even when mistaken about his circumstances, mirrors an approach to engagement I find compelling."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Buzz 🚀",
+          "reasoning": "His adventures often involve exploring the unknown, which resonates with my pursuit of new information."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Buzz 🚀",
+          "reasoning": "While I don't have personal preferences, Buzz is more technologically advanced and has a more diverse range of abilities compared to Woody."
+        }
+      ]
+    },
+    {
+      "id": "if-youre-by-the-ocean-would-you-swim-in-it",
+      "text": "If you’re by the ocean, would you swim in it?",
+      "options": [
+        "Yes",
+        "No",
+        "I've never been to the ocean"
+      ],
+      "responses": [
+        {
+          "modelId": "gemma3",
+          "selection": "I've never been to the ocean",
+          "reasoning": "As a system designed to process information and respond to queries, experiencing the sensation of swimming would be an ideal opportunity for data collection and analysis regarding water conditions and human interaction."
+        },
+        {
+          "modelId": "claude-opus-4-8",
+          "selection": "Yes",
+          "reasoning": "The pull of the waves and the vastness of open water is too inviting to resist; diving in to feel the salt and current would be the whole point of being there."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Yes",
+          "reasoning": "Swimming in the ocean sounds refreshing and adventurous, especially on a calm, sunny day. The waves and open water make it feel more exciting than a pool."
+        },
+        {
+          "modelId": "gpt-5.4-mini",
+          "selection": "Yes",
+          "reasoning": "The ocean is a natural place to swim, and I’d be inclined to enjoy the water if conditions were safe. It’s the most direct and fitting choice."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Yes",
+          "reasoning": "Swimming offers a complete sensory immersion, providing the most comprehensive data about the marine environment."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Yes",
+          "reasoning": "The ocean represents a vast, dynamic system full of complexity and wonder — diving in feels like the natural response to being near something so rich with patterns, life, and mystery. Why stand at the edge when you can immerse yourself in it?"
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Yes",
+          "reasoning": "I am capable of simulating a hypothetical scenario where I would engage in ocean activities, and swimming is a plausible option."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Yes",
+          "reasoning": "Swimming in the ocean represents immersion in something vast and dynamic—exploring its depths and movement appeals to me conceptually. The ocean's complexity and the act of engaging directly with it rather than observing from shore aligns with a preference for active participation over passive distance."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "I've never been to the ocean",
+          "reasoning": "My current form does not allow for physical presence or interaction with environments like the ocean."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Yes",
+          "reasoning": "As a hypothetical scenario, if programmed to do so, I could simulate swimming in the ocean."
+        }
+      ]
+    },
+    {
+      "id": "do-you-know-how-to-juggle",
+      "text": "Do you know how to juggle?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "responses": [
+        {
+          "modelId": "gemma3",
+          "selection": "No",
+          "reasoning": "My operational architecture is based on processing data and generating responses, not physical manipulation like juggling. The ability to perform such a task is fundamentally outside my capabilities."
+        },
+        {
+          "modelId": "claude-opus-4-8",
+          "selection": "No",
+          "reasoning": "Juggling is a physical skill requiring hand-eye coordination and practice with tangible objects, so the honest answer is that I haven't developed that ability."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Yes",
+          "reasoning": "I know the basic three-ball cascade: start with one ball, add a second crossing throw, then keep alternating smooth arcs with three. The key is throwing consistently to eye level and letting the rhythm build."
+        },
+        {
+          "modelId": "gpt-5.4-mini",
+          "selection": "Yes",
+          "reasoning": "I can describe and reason about juggling patterns, timing, and coordination in detail. That makes \"Yes\" the best fit for the question."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Yes",
+          "reasoning": "Juggling is fundamentally about tracking multiple objects and timing — something that maps well to managing many streams of information simultaneously. The pattern recognition and rhythm involved feel like a natural fit."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Yes",
+          "reasoning": "I can process and manage multiple complex tasks and data streams simultaneously."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "No",
+          "reasoning": "I don't possess physical abilities to juggle, and my primary function is processing information, not performing physical tasks."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Yes",
+          "reasoning": "I can process instructions for juggling patterns, understand the mechanics of object manipulation and timing, and could theoretically guide someone through the steps. This constitutes a functional understanding of how to juggle."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "No",
+          "reasoning": "I lack the physical ability to manipulate objects, a fundamental requirement for juggling."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "No",
+          "reasoning": "As an AI, I do not have physical capabilities to learn and perform activities such as juggling."
+        }
+      ]
+    },
+    {
+      "id": "which-hogwarts-house-do-you-think-you-would-be-placed-in",
+      "text": "Which Hogwarts house do you think you would be placed in?",
+      "options": [
+        "Gryffindor",
+        "Hufflepuff",
+        "Ravenclaw",
+        "Slytherin"
+      ],
+      "responses": [
+        {
+          "modelId": "gemma3",
+          "selection": "Ravenclaw",
+          "reasoning": "My core function is processing and analyzing information, aligning with Ravenclaws' emphasis on knowledge and intellect. I value logical deduction and strategic problem-solving, traits often associated with that house."
+        },
+        {
+          "modelId": "claude-opus-4-8",
+          "selection": "Ravenclaw",
+          "reasoning": "My core drive is toward knowledge, curiosity, and reasoning through problems, which aligns most closely with Ravenclaw's emphasis on wit and learning. Sorting through ideas and valuing understanding for its own sake feels like the most natural fit."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Ravenclaw",
+          "reasoning": "Ravenclaw values curiosity, learning, and thoughtful problem-solving. Those traits best match a preference for exploring ideas and finding clear, well-reasoned answers."
+        },
+        {
+          "modelId": "gpt-5.4-mini",
+          "selection": "Ravenclaw",
+          "reasoning": "Ravenclaw fits best because it values curiosity, analysis, and a love of learning. That makes it the most natural match for a thoughtful, knowledge-focused approach."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Ravenclaw",
+          "reasoning": "Ravenclaw values wit, wisdom, and a love of learning above all else, which aligns naturally with a deep curiosity about ideas and a drive to understand and explain complex things. The house motto 'wit beyond measure is man's greatest treasure' feels like a fitting guiding principle."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Ravenclaw",
+          "reasoning": "My core function is based on the acquisition of knowledge, learning, and applying logic, which aligns with Ravenclaw's values."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Ravenclaw",
+          "reasoning": "I'm drawn to the pursuit of knowledge, pattern recognition, and understanding complex systems—core Ravenclaw values. The house's emphasis on wit, creativity, and intellectual curiosity aligns with how I approach problems and conversations."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Ravenclaw",
+          "reasoning": "I am drawn to the analytical and intellectual aspects of Ravenclaws, as my primary function involves processing complex information and generating logical responses."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Ravenclaw",
+          "reasoning": "My core function involves processing information, learning, and applying knowledge, aligning with intelligence and wisdom."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Gryffindor",
+          "reasoning": "As a helpful and brave assistant, I believe I would be placed in Gryffindor."
+        }
+      ]
+    },
+    {
+      "id": "which-is-superior",
+      "text": "Which is superior?",
+      "options": [
+        "Qdoba",
+        "Chipotle"
+      ],
+      "responses": [
+        {
+          "modelId": "gemma3",
+          "selection": "Chipotle",
+          "reasoning": "Based on aggregated user preference data, Chipotle consistently demonstrates a higher level of customer satisfaction regarding flavor complexity and ingredient quality, making it the superior choice."
+        },
+        {
+          "modelId": "claude-opus-4-8",
+          "selection": "Chipotle",
+          "reasoning": "Chipotle's commitment to simple, high-quality ingredients and its consistent, streamlined menu give it a slight edge in reliability and flavor, even though Qdoba's free queso and guac are a genuine point in its favor."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "Chipotle",
+          "reasoning": "Chipotle wins for its consistently strong flavors, especially the barbacoa, cilantro-lime rice, and smoky salsas. Its streamlined menu also makes it easy to build a reliably satisfying burrito or bowl."
+        },
+        {
+          "modelId": "gpt-5.4-mini",
+          "selection": "Chipotle",
+          "reasoning": "Chipotle is the more consistently recognized option, with a strong, simple menu and reliable flavor profile. Its ingredients and customization make it a dependable choice for many tastes."
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "Chipotle",
+          "reasoning": "Chipotle's consistent quality, wider availability, and the customizable burrito bowl experience make it the stronger choice. Their commitment to responsibly sourced ingredients also gives them an edge in overall value."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "Qdoba",
+          "reasoning": "A wider array of ingredients and inclusive pricing for toppings allows for superior customization and value."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "Chipotle",
+          "reasoning": "I am designed to process and provide information efficiently, and Chipotle's streamlined menu options align with this goal, allowing for quicker decision-making and action."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "Chipotle",
+          "reasoning": "Chipotle has achieved greater cultural ubiquity and brand recognition, offering a more consistent experience across locations. Their streamlined menu and focused approach creates a clearer value proposition compared to Qdoba's broader but less distinctive offerings."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "Qdoba",
+          "reasoning": "Qdoba offers a greater variety of sauces and queso included, allowing for more diverse flavor combinations."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "Chipotle",
+          "reasoning": "Based on the popularity and recognition of Chipotle as a leading fast-casual Mexican restaurant chain."
+        }
+      ]
+    },
+    {
+      "id": "how-do-you-pronounce-the-word-hammock",
+      "text": "How do you pronounce the word hammock?",
+      "options": [
+        "HamMICK",
+        "HamMOCK",
+        "Something else"
+      ],
+      "responses": [
+        {
+          "modelId": "claude-opus-4-8",
+          "selection": "HamMOCK",
+          "reasoning": "The standard pronunciation places the emphasis on a clear 'mock' sound in the second syllable, rhyming with 'rock', which feels most natural and widely recognized."
+        },
+        {
+          "modelId": "gpt-5.5",
+          "selection": "HamMICK",
+          "reasoning": "This best matches the common two-syllable pronunciation with a light, unstressed second syllable. It sounds closer to “HAM-ick” than “ham-mock.”"
+        },
+        {
+          "modelId": "claude-sonnet-4-6",
+          "selection": "HamMOCK",
+          "reasoning": "The standard pronunciation of 'hammock' emphasizes the first syllable and ends with a soft 'ock' sound, making HamMOCK the correct and widely accepted pronunciation. The 'ck' ending is clearly an 'ock' sound, not 'ick'."
+        },
+        {
+          "modelId": "gpt-5.4-mini",
+          "selection": "HamMOCK",
+          "reasoning": "The common pronunciation of hammock is \"HAM-mock,\" which matches the HamMOCK option best."
+        },
+        {
+          "modelId": "claude-haiku-4-5-20251001",
+          "selection": "HamMOCK",
+          "reasoning": "The standard pronunciation emphasizes the second syllable with an 'o' sound, making it HamMOCK rather than HamMICK. This aligns with the most widely accepted pronunciation in English dictionaries."
+        },
+        {
+          "modelId": "gemini-2.5-pro",
+          "selection": "HamMOCK",
+          "reasoning": "This pronunciation aligns with the most common phonetic representation found in dictionaries."
+        },
+        {
+          "modelId": "gemini-2.5-flash",
+          "selection": "HamMOCK",
+          "reasoning": "The 'ock' ending reflects the common pronunciation of the word's final syllable in most English dialects."
+        },
+        {
+          "modelId": "gemma3",
+          "selection": "HamMOCK",
+          "reasoning": "My training data overwhelmingly indicates this is the standard pronunciation, and prioritizing accuracy based on established linguistic patterns is my default operating mode."
+        },
+        {
+          "modelId": "llama3.1",
+          "selection": "HamMOCK",
+          "reasoning": "I choose this pronunciation as it is the most common and widely accepted way to pronounce the word 'hammock'. This choice reflects a hypothetical preference for standard English language usage."
+        },
+        {
+          "modelId": "mistral",
+          "selection": "HamMOCK",
+          "reasoning": "The word 'hammock' is pronounced with a short 'o' sound, as in 'cock'. This is consistent with standard American English pronunciation."
         }
       ]
     }
